@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project creatorversion="1.2.2" version="1.0" creator="LMMS" type="song">
+  <head bpm="140" timesig_numerator="4" timesig_denominator="4" mastervol="100" masterpitch="0"/>
+  <song>
+    <trackcontainer height="366" maximized="0" width="1494" minimized="0" x="6" y="2" visible="1" type="song">
+      <track name="TripleOscillator" solo="0" type="0" muted="0">
+        <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+          <instrument name="tripleoscillator">
+            <tripleoscillator vol1="33" modalgo1="2" finel1="0" finer1="0" modalgo2="2" finer0="0" pan2="0" pan1="0" vol2="33" stphdetun2="0" wavetype0="0" userwavefile1="" finer2="0" finel0="0" coarse0="0" wavetype2="0" phoffset2="0" userwavefile2="" userwavefile0="" stphdetun1="0" coarse1="-12" finel2="0" modalgo3="2" wavetype1="0" phoffset1="0" stphdetun0="0" phoffset0="0" coarse2="-24" pan0="0" vol0="33"/>
+          </instrument>
+          <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+            <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+            <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+            <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+          </eldata>
+          <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+          <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="100" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+          <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+          <fxchain numofeffects="0" enabled="0"/>
+        </instrumenttrack>
+      </track>
+      <track name="Sample track" solo="0" type="2" muted="0">
+        <sampletrack pan="0" vol="100">
+          <fxchain numofeffects="0" enabled="0"/>
+        </sampletrack>
+      </track>
+      <track name="Beat/Bassline 0" solo="0" type="1" muted="0">
+        <bbtrack>
+          <trackcontainer height="326" maximized="0" width="779" minimized="0" x="5" y="371" visible="1" type="bbtrackcontainer">
+            <track name="Kicker" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="kicker">
+                  <kicker startfreq="150" decay="440" version="1" dist="0.8" decay_numerator="4" distend="0.8" click="0.4" endfreq="40" decay_syncmode="0" env="0.163" gain="1" startnote="1" decay_denominator="4" noise="0" slope="0.06" endnote="0"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="100" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="Kicker" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="Kicker" type="0" muted="0"/>
+              <pattern pos="384" steps="32" name="Kicker" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="Kicker" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="Kicker" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="Kicker" type="0" muted="0"/>
+            </track>
+            <track name="bassdrum01.ogg" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" src="drums/bassdrum01.ogg" interp="1" stutter="0" eframe="1" sframe="0" lframe="0" looped="0" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="bassdrum01.ogg" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="192" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="288" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="192" steps="32" name="bassdrum01.ogg" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="192" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="288" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="384" steps="32" name="bassdrum01.ogg" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="bassdrum01.ogg" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="bassdrum01.ogg" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="bassdrum01.ogg" type="0" muted="0"/>
+            </track>
+            <track name="hihat_closed05.ogg" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" src="drums/hihat_closed05.ogg" interp="1" stutter="0" eframe="1" sframe="0" lframe="0" looped="0" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="hihat_closed05.ogg" type="0" muted="0">
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="192" steps="32" name="hihat_closed05.ogg" type="0" muted="0">
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="384" steps="32" name="hihat_closed05.ogg" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="hihat_closed05.ogg" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="hihat_closed05.ogg" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="hihat_closed05.ogg" type="0" muted="0"/>
+            </track>
+            <track name="chorus01.ogg" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" src="stringsnpads/chorus01.ogg" interp="1" stutter="0" eframe="1" sframe="0" lframe="0" looped="0" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="chorus01.ogg" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="chorus01.ogg" type="0" muted="0"/>
+              <pattern pos="384" steps="32" name="chorus01.ogg" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="chorus01.ogg" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="chorus01.ogg" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="chorus01.ogg" type="0" muted="0"/>
+            </track>
+            <track name="kick01.ogg" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" src="drums/kick01.ogg" interp="1" stutter="0" eframe="1" sframe="0" lframe="0" looped="0" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="kick01.ogg" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="kick01.ogg" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="192" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="288" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="384" steps="32" name="kick01.ogg" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="kick01.ogg" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="kick01.ogg" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="kick01.ogg" type="0" muted="0"/>
+            </track>
+            <track name="Drone Arp" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="69" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="lb302">
+                  <lb302 dist="0.24" vcf_dec="0.11" slide="0" dead="0" vcf_cut="0.585" vcf_res="0.37" vcf_mod="0.33" db24="1" slide_dec="0.6" shape="11"/>
+                </instrument>
+                <eldata fres="0.01" ftype="0" fcut="1681" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.07" latt="0" lpdel="0" ctlenvamt="0" amt="1"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="1" arpskip="0" arpgate="20" arpdir="2" arptime="107.143" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="2" arptime_syncmode="6" arp-enabled="1"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="127" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="Drone Arp" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="Drone Arp" type="0" muted="0"/>
+              <pattern pos="384" steps="32" name="Drone Arp" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="192" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="240" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="288" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="336" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="576" steps="16" name="Drone Arp" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="Drone Arp" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="Drone Arp" type="0" muted="0"/>
+            </track>
+            <track name="vapo.wav" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="99.7">
+                <instrument name="audiofileprocessor">
+                  <audiofileprocessor reversed="0" src="C:/Users/Samanta/Downloads/vapo.wav" interp="1" stutter="0" eframe="1" sframe="0" lframe="0" looped="0" amp="100"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="vapo.wav" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="vapo.wav" type="0" muted="0"/>
+              <pattern pos="384" steps="32" name="vapo.wav" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="vapo.wav" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="768" steps="16" name="vapo.wav" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+              </pattern>
+              <pattern pos="960" steps="16" name="vapo.wav" type="0" muted="0"/>
+            </track>
+            <track name="OpulenZ" solo="0" type="0" muted="0">
+              <instrumenttrack pitchrange="1" basenote="57" fxch="0" pitch="0" usemasterpitch="1" pan="0" vol="100">
+                <instrument name="OPL2">
+                  <OPL2 op1_waveform="0" op2_mul="1" op1_mul="0" op2_ksr="0" op2_scale="0" op1_lvl="62" op2_perc="0" op2_lvl="63" op2_s="14" fm="1" op1_perc="0" op1_a="14" vib_depth="0" op2_waveform="0" op1_s="3" op1_vib="0" op2_vib="1" op2_a="1" op1_r="10" op2_r="12" feedback="0" op2_d="3" op1_d="14" trem_depth="0" op1_trem="1" op1_ksr="0" op1_scale="0" op2_trem="0"/>
+                </instrument>
+                <eldata fres="0.5" ftype="0" fcut="14000" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elcut lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                  <elres lshp="0" lspd_numerator="4" dec="0.5" pdel="0" rel="0.1" x100="0" lspd_denominator="4" sustain="0.5" att="0" lspd="0.1" lamt="0" userwavefile="" lspd_syncmode="0" hold="0.5" latt="0" lpdel="0" ctlenvamt="0" amt="0"/>
+                </eldata>
+                <chordcreator chord="0" chordrange="1" chord-enabled="0"/>
+                <arpeggiator arptime_denominator="4" arpmode="0" arpskip="0" arpgate="100" arpdir="0" arptime="200" arp="0" arpcycle="0" arptime_numerator="4" arpmiss="0" arprange="1" arptime_syncmode="0" arp-enabled="0"/>
+                <midiport fixedoutputvelocity="-1" outputprogram="1" inputcontroller="0" writable="0" fixedinputvelocity="-1" outputcontroller="0" basevelocity="63" readable="0" inputchannel="0" fixedoutputnote="-1" outputchannel="1"/>
+                <fxchain numofeffects="0" enabled="0"/>
+              </instrumenttrack>
+              <pattern pos="0" steps="32" name="OpulenZ" type="0" muted="0"/>
+              <pattern pos="192" steps="32" name="OpulenZ" type="0" muted="0"/>
+              <pattern pos="384" steps="32" name="OpulenZ" type="0" muted="0"/>
+              <pattern pos="576" steps="16" name="OpulenZ" type="0" muted="0"/>
+              <pattern pos="768" steps="16" name="OpulenZ" type="0" muted="0"/>
+              <pattern pos="960" steps="16" name="OpulenZ" type="0" muted="0">
+                <note key="57" pos="0" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="24" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="48" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="72" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="96" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="120" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="144" pan="0" len="-192" vol="100"/>
+                <note key="57" pos="168" pan="0" len="-192" vol="100"/>
+              </pattern>
+            </track>
+          </trackcontainer>
+        </bbtrack>
+        <bbtco pos="0" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="384" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5376" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5184" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5760" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6144" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6528" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6912" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7296" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12480" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12864" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7680" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12096" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+      <track name="Beat/Bassline 1" solo="0" type="1" muted="0">
+        <bbtrack/>
+        <bbtco pos="768" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="1152" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="1536" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="1920" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2496" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2304" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2880" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3264" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3648" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4032" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4416" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4800" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5184" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5568" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5952" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6528" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6336" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6912" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8064" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8448" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8832" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9216" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9600" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9984" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10368" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10752" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11136" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11520" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12096" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11904" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12480" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7296" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7680" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+      <track name="Beat/Bassline 2" solo="0" type="1" muted="0">
+        <bbtrack/>
+        <bbtco pos="1920" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2304" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2688" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2112" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="1536" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="1728" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="2496" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4224" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4032" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4608" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4992" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5568" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5376" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5952" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6336" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6720" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9024" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8832" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11328" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11712" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12096" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12480" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7104" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8256" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8640" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10560" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10944" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="8064" len="384" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+      <track name="Beat/Bassline 3" solo="0" type="1" muted="0">
+        <bbtrack/>
+        <bbtco pos="2880" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3072" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4416" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4608" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4800" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4992" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11904" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11712" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9984" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9792" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11520" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11328" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9600" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="9408" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+      <track name="Beat/Bassline 4" solo="0" type="1" muted="0">
+        <bbtrack/>
+        <bbtco pos="3264" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3456" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3648" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="3840" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4224" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="4032" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10560" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10752" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10944" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="11136" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10368" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="10176" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+      <track name="Beat/Bassline 5" solo="0" type="1" muted="0">
+        <bbtrack/>
+        <bbtco pos="5376" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5568" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5760" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5952" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6144" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6336" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6528" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="5184" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6720" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="6912" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12480" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12672" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7104" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="7296" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12288" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+        <bbtco pos="12096" len="192" name="" usestyle="1" color="4286611584" muted="0"/>
+      </track>
+    </trackcontainer>
+    <track name="Automation track" solo="0" type="6" muted="0">
+      <automationtrack/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" name="Numerator" mute="0"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" name="Denominator" mute="0"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" name="Tempo" mute="0"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" name="Master volume" mute="0"/>
+      <automationpattern tens="1" pos="0" prog="0" len="192" name="Master pitch" mute="0"/>
+    </track>
+    <fxmixer height="333" maximized="0" width="543" minimized="0" x="5" y="310" visible="0">
+      <fxchannel num="0" volume="1" name="Master" muted="0" soloed="0">
+        <fxchain numofeffects="0" enabled="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView height="200" maximized="0" width="350" minimized="0" x="680" y="310" visible="0"/>
+    <pianoroll height="480" maximized="0" width="860" minimized="0" x="5" y="5" visible="0"/>
+    <automationeditor height="400" maximized="0" width="860" minimized="0" x="1" y="1" visible="0"/>
+    <projectnotes height="325" maximized="0" width="711" minimized="0" x="790" y="372" visible="1"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:7.5pt; font-weight:400; font-style:normal;">
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Universidade Federal de São João del-Rei</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Departamento de Ciência da Computação</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Introdução a Computação Musical</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">1º Semestre de 2024</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Prof. Flávio Schiavoni</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Trabalho Prático 1</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">Samanta Ribeiro Freire</span></p>
+<p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Segoe UI'; font-size:14pt; font-weight:600; color:#e0e0e0;">192050022</span></p></body></html>]]></projectnotes>
+    <timeline lpstate="0" lp1pos="192" lp0pos="0"/>
+    <controllers/>
+  </song>
+</lmms-project>
+

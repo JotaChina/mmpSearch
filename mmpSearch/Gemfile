@@ -1,16 +1,5 @@
 source "https://rubygems.org"
 
 # Dependências principais do Jekyll
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.3.3"
 gem "minima", "~> 2.5"
-
-# Plugins comuns do Jekyll
-gem "jekyll-feed", "~> 0.17"
-gem "jekyll-seo-tag", "~> 2.8"
-
-# Gema para converter SASS
-gem "sassc", "~> 2.4"
-
-# Gems padrão do Ruby
-gem 'csv'
-gem 'base64'

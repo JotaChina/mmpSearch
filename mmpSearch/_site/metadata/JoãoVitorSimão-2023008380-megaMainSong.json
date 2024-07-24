@@ -1,0 +1,66 @@
+{
+    "file": "mmp\\JoãoVitorSimão-2023008380-megaMainSong.mmp",
+    "bpm": "160",
+    "tracks": [
+        {
+            "track_name": "main base",
+            "type": "bassline",
+            "instruments": [
+                {
+                    "instrument_name": "bass1"
+                },
+                {
+                    "instrument_name": "noise1"
+                },
+                {
+                    "instrument_name": "snare"
+                }
+            ]
+        },
+        {
+            "track_name": "End Drums",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Middle Bass",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Melody 1",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Melody 2",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Chords",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Menu base",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Menu Melody",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Menu Start",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Menu Bass",
+            "type": "plugin",
+            "instruments": []
+        }
+    ]
+}

@@ -84,8 +84,9 @@ def process_mmps_in_folder(folder_path):
             file_name = os.path.basename(destination_path)
             file_name = os.path.splitext(file_name)[0] + ".mmp"
             output_file_path = os.path.join(folder_path, file_name)
-
-            comando = f'"C:\\Program Files\\LMMS\\lmms.exe" --dump "{destination_path}" > "{output_file_path}"'
+            QT_DEBUG_PLUGINS=1
+            QT_QPA_PLATFORM=offscreen 
+            comando = f'lmms --dump "{destination_path}" > "{output_file_path}"'
             try:
                 subprocess.run(comando, shell=True, check=True)
                 print("Comando executado com sucesso!")

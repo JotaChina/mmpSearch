@@ -1,0 +1,133 @@
+bpm: '140'
+file: mmp\eliasMendesSong.mmp
+tracks:
+- instruments: []
+  track_name: TripleOscillator
+  type: plugin
+- instruments: []
+  track_name: Sample track
+  type: sample
+- instruments:
+  - instrument_name: Kicker
+  - instrument_name: heaven_strings01.ogg
+  - instrument_name: breath01.ogg
+  - instrument_name: break02.ogg
+  - instrument_name: clap01.ogg
+  - instrument_name: raving_crowd01.ogg
+  - instrument_name: start01.ogg
+  - instrument_name: bass01.ogg
+  - instrument_name: rave_bass01.ogg
+  - instrument_name: synth_acid01.ogg
+  - instrument_name: horror_bass01.ogg
+  - instrument_name: hihat_closed01.ogg
+  - instrument_name: Hi-q.ds
+  - instrument_name: Syntom_1.ds
+  - instrument_name: Snare.ds
+  - instrument_name: a_round_thing.ds
+  - instrument_name: long_q_1.ds
+  - instrument_name: wee_dog.ds
+  - instrument_name: dirty_transform.ds
+  track_name: Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline
+    0
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline
+    0
+  type: bassline
+- instruments: []
+  track_name: Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de
+    Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha
+    de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo
+    8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha
+    de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha
+    de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone
+    de Batida/Linha de Baixo 8
+  type: bassline
+- instruments: []
+  track_name: dirty_transform.ds
+  type: plugin

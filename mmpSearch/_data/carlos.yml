@@ -1,5 +1,5 @@
 bpm: '90'
-file: mmp\carlos.mmp
+file: mmp/carlos.mmp
 tracks:
 - instruments:
   - instrument_name: Alien clKick 05b1

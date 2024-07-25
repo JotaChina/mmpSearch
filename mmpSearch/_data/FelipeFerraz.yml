@@ -1,5 +1,5 @@
 bpm: '121'
-file: mmp\FelipeFerraz.mmp
+file: mmp/FelipeFerraz.mmp
 tracks:
 - instruments:
   - instrument_name: MB 808 (20).wav

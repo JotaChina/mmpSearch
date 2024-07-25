@@ -1,5 +1,5 @@
 bpm: '90'
-file: mmp\beatJulioCesardeSousa.mmp
+file: mmp/beatJulioCesardeSousa.mmp
 tracks:
 - instruments: []
   track_name: TripleOscillator

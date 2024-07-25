@@ -1,5 +1,5 @@
 bpm: '140'
-file: mmp\Samanta Freire.mmp
+file: mmp/Samanta Freire.mmp
 tracks:
 - instruments: []
   track_name: TripleOscillator

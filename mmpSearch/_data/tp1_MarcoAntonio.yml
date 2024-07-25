@@ -1,5 +1,5 @@
 bpm: '140'
-file: mmp\tp1_MarcoAntonio.mmp
+file: mmp/tp1_MarcoAntonio.mmp
 tracks:
 - instruments: []
   track_name: e_piano_accord01.ogg

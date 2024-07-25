@@ -1,5 +1,5 @@
 bpm: '145'
-file: mmp\Gustavo Castro.mmp
+file: mmp/Gustavo Castro.mmp
 tracks:
 - instruments: []
   track_name: TripleOscillator

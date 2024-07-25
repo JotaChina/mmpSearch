@@ -1,5 +1,5 @@
 bpm: '140'
-file: mmp\Computacao_Musical_Thiago_Rocha_de_Moraes.mmp
+file: mmp/Computacao_Musical_Thiago_Rocha_de_Moraes.mmp
 tracks:
 - instruments:
   - instrument_name: kick01.ogg

@@ -1,5 +1,5 @@
 bpm: '140'
-file: "mmp\\SonsAlign\xEDgenas.mmp"
+file: "mmp/SonsAlign\xEDgenas.mmp"
 tracks:
 - instruments: []
   track_name: TripleOscillator

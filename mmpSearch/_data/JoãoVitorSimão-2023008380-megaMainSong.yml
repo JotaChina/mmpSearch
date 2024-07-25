@@ -1,5 +1,5 @@
 bpm: '160'
-file: "mmp\\Jo\xE3oVitorSim\xE3o-2023008380-megaMainSong.mmp"
+file: "mmp/Jo\xE3oVitorSim\xE3o-2023008380-megaMainSong.mmp"
 tracks:
 - instruments:
   - instrument_name: bass1

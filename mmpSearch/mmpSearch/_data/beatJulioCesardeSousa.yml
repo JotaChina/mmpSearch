@@ -1,0 +1,26 @@
+bpm: '90'
+file: mmp\beatJulioCesardeSousa.mmp
+tracks:
+- instruments: []
+  track_name: TripleOscillator
+  type: plugin
+- instruments: []
+  track_name: Sample track
+  type: sample
+- instruments:
+  - instrument_name: Kicker
+  - instrument_name: snare_hiphop02.ogg
+  - instrument_name: kick_hiphop01.ogg
+  - instrument_name: hihat_opened02.ogg
+  - instrument_name: hihat_closed01.ogg
+  - instrument_name: bassslap02.ogg
+  - instrument_name: clap03.ogg
+  - instrument_name: clav01.ogg
+  track_name: Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Batida/Linha de Baixo 1
+  type: bassline
+- instruments: []
+  track_name: Batida/Linha de Baixo 2
+  type: bassline

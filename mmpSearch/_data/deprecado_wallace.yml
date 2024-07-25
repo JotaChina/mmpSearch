@@ -1,5 +1,5 @@
 bpm: '120'
-file: mmp\deprecado_wallace.mmp
+file: mmp/deprecado_wallace.mmp
 tracks:
 - instruments: []
   track_name: TripleOscillator

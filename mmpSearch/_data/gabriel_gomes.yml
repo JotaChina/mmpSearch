@@ -1,5 +1,5 @@
 bpm: '140'
-file: mmp\gabriel_gomes.mmp
+file: mmp/gabriel_gomes.mmp
 tracks:
 - instruments: []
   track_name: TripleOscillator

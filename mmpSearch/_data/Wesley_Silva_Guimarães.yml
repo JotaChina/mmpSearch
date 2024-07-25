@@ -1,5 +1,5 @@
 bpm: '140'
-file: "mmp\\Wesley_Silva_Guimar\xE3es.mmp"
+file: "mmp/Wesley_Silva_Guimar\xE3es.mmp"
 tracks:
 - instruments: []
   track_name: TripleOscillator

@@ -7,14 +7,14 @@ import shutil
 
 def parse_mmp_file(file_path):
     try:
+        #abrindo o .mmp, navegando até os instrumentos
         tree = ET.parse(file_path)
         root = tree.getroot()
-
         bpm = root.find('./head').attrib.get('bpm', 'N/A')
-
         tracks = root.findall('./song/trackcontainer/track')
         track_info = []
 
+        #coletando as informações
         for track in tracks:
             track_name = track.attrib.get('name', 'N/A')
             track_type = track.attrib.get('type')
@@ -26,13 +26,6 @@ def parse_mmp_file(file_path):
                     track_info.append({
                         'track_name': track_name,
                         'type': 'plugin',
-                        'instruments': [],
-                    })
-
-                elif track_type == '2':  # Faixa do tipo Sample Track
-                    track_info.append({
-                        'track_name': track_name,
-                        'type': 'sample',
                         'instruments': [],
                     })
 
@@ -54,6 +47,13 @@ def parse_mmp_file(file_path):
                             'instruments': instruments,
                         })
 
+                elif track_type == '2':  # Faixa do tipo Sample Track
+                    track_info.append({
+                        'track_name': track_name,
+                        'type': 'sample',
+                        'instruments': [],
+                    })               
+
         return {
             'file': file_path,
             'bpm': bpm,
@@ -65,13 +65,16 @@ def parse_mmp_file(file_path):
         return None
 
 def process_mmps_in_folder(folder_path):
+    #coletando os arquivos .mmpz e/ou .mmp
     mmp_files = [f for f in os.listdir(folder_path) if f.endswith('.mmp') or f.endswith('.mmpz')]
     all_data = []
 
+    #caso não haja, criando a pasta dos arquivos mmpz
     mmpz_folder = os.path.join(folder_path, 'mmpz')
     if not os.path.exists(mmpz_folder):
         os.makedirs(mmpz_folder)
 
+    #processamento dos arquivos
     for file in mmp_files:
         file_path = os.path.join(folder_path, file)
         print(f'Processando arquivo: {file_path}')
@@ -84,19 +87,34 @@ def process_mmps_in_folder(folder_path):
             file_name = os.path.basename(destination_path)
             file_name = os.path.splitext(file_name)[0] + ".mmp"
             output_file_path = os.path.join(folder_path, file_name)
-            comando = f'lmms --dump "{destination_path}" > "{output_file_path}"'
+            lmms_mmpz_convert = f'lmms --dump "{destination_path}" > "{output_file_path}"'
+            print(output_file_path[-1])
+            lmms_wav_convert = f'lmms -r {file_name[0]}.mmpz -o {output_file_path[-1]} -f wav'
             try:
+                #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'
                 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
-                subprocess.run(comando, shell=True, check=True)
+                #rodando o comando para converter os arquivos .mmpz em .mmp
+                subprocess.run(lmms_mmpz_convert, shell=True, check=True)
                 print("Comando executado com sucesso!")
             except subprocess.CalledProcessError as e:
                 print(f"Ocorreu um erro ao executar o comando: {e}")
-
+            try:
+                #desabilitando os servidores gráficos
+                os.environ['QT_DEBUG_PLUGINS'] = '1'
+                os.environ['QT_QPA_PLATFORM'] = 'offscreen'
+                #rodando o comando para converter os arquivos .mmpz em .mmp
+                subprocess.run(lmms_wav_convert, shell=True, check=True)
+                print("Comando executado com sucesso!")
+            except subprocess.CalledProcessError as e:
+                print(f"Ocorreu um erro ao executar o comando: {e}")
             mmp_data = parse_mmp_file(output_file_path)  
+        #caso tenha algum arquivo .mmp perdido na pasta
         elif file.endswith('.mmp'):
             mmp_data = parse_mmp_file(file_path)  
 
+        #guardando as informações dos arquivos no arquivo json
+        #/metadata (json) e /_data(yml)
         if mmp_data:
             all_data.append(mmp_data)
 

@@ -85,12 +85,14 @@ def process_mmps_in_folder(folder_path):
         print(f'Processando arquivo: {file_path}')
 
         if file.endswith('.mmpz'):
-            destination_path = os.path.join(mmpz_folder, file)            
+            destination_path = os.path.join(mmpz_folder, file) 
+            shutil.move(file_path, destination_path)
+            print(f'Arquivo {file} movido para {destination_path}')           
 
             file_name = os.path.basename(destination_path)
             file_name = os.path.splitext(file_name)[0] + ".mmp"
             output_file_path = os.path.join(folder_path, file_name)
-            lmms_mmpz_convert = f'lmms --dump "{destination_path}" > "{output_file_path}"'
+            lmms_mmpz_convert = f'"C:\Program Files\LMMS\lmms.exe" --dump "{destination_path}" > "{output_file_path}"'
 
             try:
                 #desabilitando os servidores gráficos
@@ -101,9 +103,10 @@ def process_mmps_in_folder(folder_path):
                 print("Comando executado com sucesso!")
             except subprocess.CalledProcessError as e:
                 print(f"Ocorreu um erro ao executar o comando: {e}")
+            wav_path = 'mmpSearch\mmp\mmpz\\'+file_name.split('.')[0]
             file_name = file_name.split('.')
-            print(file_name[0])
-            lmms_wav_convert = f'lmms -r {file_name[0]}.mmpz -o /wav -f wav'
+            #"C:\Program Files\LMMS\lmms.exe" -r beatJulioCesardeSousa.mmp -o C:\Users\bacteria\wav -f wav
+            lmms_wav_convert = f'lmms -r "{wav_path}.mmpz" -o mmpSearch\mmp\wav -f {file_name[0]}'
             try:
                 #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'
@@ -113,8 +116,6 @@ def process_mmps_in_folder(folder_path):
                 print("Comando executado com sucesso!")
             except subprocess.CalledProcessError as e:
                 print(f"Ocorreu um erro ao executar o comando: {e}")
-            shutil.move(file_path, destination_path)
-            print(f'Arquivo {file} movido para {destination_path}')
             mmp_data = parse_mmp_file(output_file_path)  
         #caso tenha algum arquivo .mmp perdido na pasta
         elif file.endswith('.mmp'):

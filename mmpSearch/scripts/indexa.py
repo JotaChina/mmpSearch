@@ -103,7 +103,7 @@ def process_mmps_in_folder(folder_path):
                 print(f"Ocorreu um erro ao executar o comando: {e}")
             file_name = file_name.split('.')
             print(file_name[0])
-            lmms_wav_convert = f'lmms -r "{file_name[0]}.mmpz" -o "/wav" -f wav'
+            lmms_wav_convert = f'lmms -r {file_name[0]}.mmpz -o /wav -f wav'
             try:
                 #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'

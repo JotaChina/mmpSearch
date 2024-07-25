@@ -86,9 +86,7 @@ def process_mmps_in_folder(folder_path):
             file_name = os.path.splitext(file_name)[0] + ".mmp"
             output_file_path = os.path.join(folder_path, file_name)
             lmms_mmpz_convert = f'lmms --dump "{destination_path}" > "{output_file_path}"'
-            file_name = file_name.split('.')
-            print(file_name[0])
-            lmms_wav_convert = f'lmms -r "{file_name[0]}.mmpz" -o "mmp/wav" -f wav'
+
             try:
                 #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'
@@ -98,7 +96,9 @@ def process_mmps_in_folder(folder_path):
                 print("Comando executado com sucesso!")
             except subprocess.CalledProcessError as e:
                 print(f"Ocorreu um erro ao executar o comando: {e}")
-
+            file_name = file_name.split('.')
+            print(file_name[0])
+            lmms_wav_convert = f'lmms -r "{file_name[0]}.mmpz" -o "mmp/wav" -f wav'
             try:
                 #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'

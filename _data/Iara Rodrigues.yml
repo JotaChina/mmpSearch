@@ -1,0 +1,71 @@
+bpm: '110'
+file: mmp/Iara Rodrigues.mmp
+tracks:
+- instruments: []
+  track_name: TripleOscillator
+  type: plugin
+- instruments: []
+  track_name: Sample track
+  type: sample
+- instruments:
+  - instrument_name: Kicker
+  - instrument_name: kick_distorted01.ogg
+  - instrument_name: clap04.ogg
+  - instrument_name: rim01.ogg
+  - instrument_name: shaker02.ogg
+  - instrument_name: bassdrum_acoustic01.ogg
+  - instrument_name: hihat_closed01.ogg
+  - instrument_name: kick_long01.ogg
+  - instrument_name: piano01.ogg
+  - instrument_name: violin_double_stop01.ogg
+  - instrument_name: harpsichord01.ogg
+  - instrument_name: bassslap02.ogg
+  - instrument_name: bassslap01.ogg
+  - instrument_name: cello01.ogg
+  - instrument_name: bassslap01.ogg
+  - instrument_name: bass!.ogg
+  - instrument_name: chroma_sound_effect01.ogg
+  - instrument_name: 110011__tuberatanka__cat-meow.wav
+  - instrument_name: wind_chimes01.ogg
+  - instrument_name: auauEmy.wav
+  track_name: Beat/Bassline 0
+  type: bassline
+- instruments: []
+  track_name: Bassline 1
+  type: bassline
+- instruments: []
+  track_name: piu /Bassline2
+  type: bassline
+- instruments: []
+  track_name: pieino
+  type: bassline
+- instruments: []
+  track_name: ' pieino 2'
+  type: bassline
+- instruments: []
+  track_name: ' pieino 3'
+  type: bassline
+- instruments: []
+  track_name: Violino
+  type: bassline
+- instruments: []
+  track_name: baixo engual eu
+  type: bassline
+- instruments: []
+  track_name: '!!bass'
+  type: bassline
+- instruments: []
+  track_name: start?
+  type: bassline
+- instruments: []
+  track_name: meow
+  type: bassline
+- instruments: []
+  track_name: meio
+  type: bassline
+- instruments: []
+  track_name: Clone de meio
+  type: bassline
+- instruments: []
+  track_name: emelym
+  type: bassline

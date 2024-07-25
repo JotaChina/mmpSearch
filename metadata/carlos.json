@@ -1,0 +1,38 @@
+{
+    "file": "mmp/carlos.mmp",
+    "bpm": "90",
+    "tracks": [
+        {
+            "track_name": "Beat/Bassline 0",
+            "type": "bassline",
+            "instruments": [
+                {
+                    "instrument_name": "Alien clKick 05b1"
+                },
+                {
+                    "instrument_name": "Alien Snare Dry 02"
+                }
+            ]
+        },
+        {
+            "track_name": "Alien Crash Cymbals 02",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Alien Saw Bass 01a42",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Alien Synth Voice 01a",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Alien Sine Piano 02b Synth",
+            "type": "plugin",
+            "instruments": []
+        }
+    ]
+}

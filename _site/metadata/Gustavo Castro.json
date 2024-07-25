@@ -1,0 +1,78 @@
+{
+    "file": "mmp/Gustavo Castro.mmp",
+    "bpm": "145",
+    "tracks": [
+        {
+            "track_name": "TripleOscillator",
+            "type": "plugin",
+            "instruments": []
+        },
+        {
+            "track_name": "Sample track",
+            "type": "sample",
+            "instruments": []
+        },
+        {
+            "track_name": "Beat/Bassline 0",
+            "type": "bassline",
+            "instruments": [
+                {
+                    "instrument_name": "bassdrum01.ogg"
+                },
+                {
+                    "instrument_name": "snare_acoustic01.ogg"
+                },
+                {
+                    "instrument_name": "hihat_closed01.ogg"
+                },
+                {
+                    "instrument_name": "kick01.ogg"
+                },
+                {
+                    "instrument_name": "snare03.ogg"
+                },
+                {
+                    "instrument_name": "zap03.ogg"
+                },
+                {
+                    "instrument_name": "zap02.ogg"
+                },
+                {
+                    "instrument_name": "electric_ping01.ogg"
+                },
+                {
+                    "instrument_name": "steel_guitar_slight_distorted01.ogg"
+                },
+                {
+                    "instrument_name": "ride01.ogg"
+                },
+                {
+                    "instrument_name": "shaker02.ogg"
+                },
+                {
+                    "instrument_name": "steel_guitar_heavy_distorted01.ogg"
+                }
+            ]
+        },
+        {
+            "track_name": "Refrão",
+            "type": "bassline",
+            "instruments": []
+        },
+        {
+            "track_name": "Batida/Linha de Baixo 2",
+            "type": "bassline",
+            "instruments": []
+        },
+        {
+            "track_name": "Batida/Linha de Baixo 3",
+            "type": "bassline",
+            "instruments": []
+        },
+        {
+            "track_name": "Batida/Linha de Baixo 4",
+            "type": "bassline",
+            "instruments": []
+        }
+    ]
+}

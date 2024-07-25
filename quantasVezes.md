@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Quantidade de repetições de instrumentos
+permalink: /quantasVezesAparecemInstrumentos/
 ---
 
 <h2>Quantidade de vezes que cada instrumento é utilizado:</h2>

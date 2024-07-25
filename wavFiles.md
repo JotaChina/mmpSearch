@@ -1,21 +1,27 @@
 ---
 layout: default
 title: Músicas
-permalink: /musicas/
+permalink: /beatsDisponiveis/
 ---
 
-# Músicas
+<h1>Lista de Beats</h1>
 
-Aqui estão as músicas exportadas:
+Aqui estão os beats disponíveis.
 
-{% for music in site.static_files %}
-  {% if music.path contains 'mmp/wav' %}
-    <div>
-      <h2>{{ music.name }}</h2>
-      <audio controls>
-        <source src="{{ music.path | relative_url }}" type="audio/wav">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  {% endif %}
+<ul>
+{% assign files = site.static_files %}
+{% for file in files %}
+  {% if file.path contains '/mmp/wav/' %}
+    <li>
+      <span> {{ file.name }} </span>
+	<br>
+	<audio controls>
+	<source src="{{ file.path | relative_url }}"
+	type="audio/wav">
+	Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </li>	
+    <br>
+   {% endif %}
 {% endfor %}
+</ul>

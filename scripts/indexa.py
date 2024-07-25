@@ -103,10 +103,10 @@ def process_mmps_in_folder(folder_path):
                 print("Comando executado com sucesso!")
             except subprocess.CalledProcessError as e:
                 print(f"Ocorreu um erro ao executar o comando: {e}")
-            wav_path = '/nethome/jotachina/public_html/mmpSearch/mmpSearch/mmp/mmpz/'+file_name.split('.')[0]
+            wav_path = '/nethome/jotachina/public_html/mmpSearch/mmp/mmpz/'+file_name.split('.')[0]
             file_name = file_name.split('.')
             #"C:\Program Files\LMMS\lmms.exe" -r beatJulioCesardeSousa.mmp -o C:\Users\bacteria\wav -f wav
-            lmms_wav_convert = f'lmms -r "{wav_path}.mmpz" -o /nethome/jotachina/public_html/mmpSearch/mmpSearch/mmp/wav/{file_name[0]} -f wav'
+            lmms_wav_convert = f'lmms -r "{wav_path}.mmpz" -o /nethome/jotachina/public_html/mmpSearch/mmp/wav/{file_name[0]} -f wav'
             try:
                 #desabilitando os servidores gráficos
                 os.environ['QT_DEBUG_PLUGINS'] = '1'

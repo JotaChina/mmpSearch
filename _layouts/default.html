@@ -3,24 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel"stylesheet" href="assets/css/main.css">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <!-- Adicione outros links de estilos necessários -->
+    <nav>
+      <a href="/~jotachina/mmpSearch/_site/">Home</a>
+      <a href="/~jotachina/mmpSearch/_site/quantasVezesAparecemInstrumentos">Repetições</a>
+      <a href="/~jotachina/mmpSearch/_site/quaisProjetos/">Quais projetos usam quais instrumentos?</a>
+      <a href="/~jotachina/mmpSearch/_site/beatsDisponiveis/">Beats disponíveis</a>
+      <a href="/~jotachina/mmpSearch/_site/arquivosMMP/">Projetos disponíveis</a>
+      <a href="/~jotachina/mmpSearch/_site/about/">Sobre</a>
+    </nav>
 </head>
-<body>
-    {% include header.html %}
 
-    <main>
+<body>
+    <main class="main-content">
+    <div class="container">
+    <aside class="container">
+      <div class"post-grid">
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+        <div class="post">1</div>
+      </div>
+    </side>
+
         {{ content }}
     </main>
-
+    </div>
     <footer>
         <!-- Rodapé -->
+	Alice UFSJ
     </footer>
 
     <!-- Scripts no final da página para melhor performance -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
     <!-- Adicione outros scripts conforme necessário -->
 
 </body>

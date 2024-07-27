@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Arquivos MMP Processados
+permalink: /arquivosMMP/
 ---
 
 <h2>Arquivos MMP disponíveis:</h2>

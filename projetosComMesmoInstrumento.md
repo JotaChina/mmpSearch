@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Instrumentos Similares
+permalink: /quaisProjetos/
 ---
 
 <h2>Arquivos que possuem instrumentos similares:</h2>

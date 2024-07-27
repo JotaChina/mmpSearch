@@ -40,7 +40,7 @@ body {
 .main-content {
   flex: 1;
   padding: 20px;
-  backgound-color: #ecf0f1;
+  background-color: #ecf0f1;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;

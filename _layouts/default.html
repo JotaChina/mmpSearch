@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel"stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>{{ page.title }}</title>
     <!-- Adicione outros links de estilos necessários -->
-    <nav>
-      <a href="/~jotachina/mmpSearch/_site/">Home</a>
-      <a href="/~jotachina/mmpSearch/_site/quantasVezesAparecemInstrumentos">Repetições</a>
-      <a href="/~jotachina/mmpSearch/_site/quaisProjetos/">Quais projetos usam quais instrumentos?</a>
-      <a href="/~jotachina/mmpSearch/_site/beatsDisponiveis/">Beats disponíveis</a>
-      <a href="/~jotachina/mmpSearch/_site/arquivosMMP/">Projetos disponíveis</a>
-      <a href="/~jotachina/mmpSearch/_site/about/">Sobre</a>
-    </nav>
 </head>
 
 <body>
-    <main class="main-content">
+    <header>
+	<nav>
+      	  <a href="/~jotachina/mmpSearch/_site/">Home</a>
+      	  <a href="/~jotachina/mmpSearch/_site/quantasVezesAparecemInstrumentos">Repetições</a>
+      	  <a href="/~jotachina/mmpSearch/_site/quaisProjetos/">Quais projetos usam quais instrumentos?</a>
+      	  <a href="/~jotachina/mmpSearch/_site/beatsDisponiveis/">Beats disponíveis</a>
+      	  <a href="/~jotachina/mmpSearch/_site/arquivosMMP/">Projetos disponíveis</a>
+      	  <a href="/~jotachina/mmpSearch/_site/about/">Sobre</a>
+        </nav>
+    </header>
+
+
+  <main class="main-content">
     <div class="container">
-    <aside class="container">
-      <div class"post-grid">
+    <aside>
+      <div class="post-grid">
         <div class="post">1</div>
         <div class="post">1</div>
         <div class="post">1</div>
@@ -31,11 +35,14 @@
         <div class="post">1</div>
         <div class="post">1</div>
       </div>
-    </side>
+    </aside>
 
-        {{ content }}
     </main>
-    </div>
+  <div class="contet">
+        {{ content }}
+  </div>
+</div>
+
     <footer>
         <!-- Rodapé -->
 	Alice UFSJ

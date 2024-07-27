@@ -1,11 +1,3 @@
-@import 'variables';
-@import 'mixins';
-@import 'header';
-@import 'footer';
-@import 'buttons';
-@import 'forms';
-@import 'custom';
-
 body{
 	margin: 0;
 	font-family: Arial, sans-serif;
@@ -48,7 +40,7 @@ body{
 .main-content{
 	flex: 1;
 	padding: 20px;
-	backgound-color: #ecf0f1;
+	background-color: #ecf0f1;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;

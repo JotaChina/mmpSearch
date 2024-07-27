@@ -6,6 +6,4 @@ layout: default
 
 title: "MMPSearch"
 ---
-Um apanhado de projetos soltos em um repositório podem não ser muito proveitoso.
-Porém, filtros para levantar estatísticas e facilitar o acesso ao que procura, isso sim tem um grande potencial.
 

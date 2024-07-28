@@ -21,13 +21,19 @@ permalink: /buscas/
     <div id="search">
       <label for="instrument-search">Buscar instrumento:</label>
       <input type="text" id="instrument-search" placeholder="Digite o nome do instrumento...">
-      <button id="search-button">Buscar</button>
+      <button id="search-button">Buscar Projetos</button>
     </div>
 
     <div id="search-wav">
       <label for="file-wav-search">Buscar beat:</label>
       <input type="text" id="file-wav-search" placeholder="Buscar por nome do arquivo">
-      <button id="search-wav-button">Buscar</button>
+      <button id="search-wav-button">Buscar Beats</button>
+    </div>
+
+    <div id="search-both">
+      <label for="instrument-wav-search">Buscar em Projetos e Beats:</label>
+      <input type="text" id="instrument-wav-search" placeholder="Buscar por instrumento">
+      <button id="search-both-button">Buscar Projetos e Beats</button>
     </div>
 
     <ul id="file-list-wav" style="display: none;">

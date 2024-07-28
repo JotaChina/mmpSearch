@@ -4,28 +4,32 @@ title: Arquivos MMP Processados
 permalink: /arquivosMMP/
 ---
 
-<h2>Arquivos MMP disponíveis:</h2>
+<main class="main-content">
+  <div class="container">
+    <h2>Arquivos MMP disponíveis:</h2>
 
-<ul>
-{% for files in site.data %}      
-    {% assign file_data = files %}
-    {% for item in file_data %}
-        {% if item.file %}
-            <li>File path: <strong>{{ item.file }}</strong></li>
-        {% endif %}
-        {% if item.bpm %}
-            <li>BPM: {{ item.bpm }}</li>
-        {% endif %}
-        <ul>
-        {% for track in item.tracks %}
-            <li>{{ track.track_name }} ({{ track.type }})</li>
-            <ul>
-            {% for instrument in track.instruments %}
-                <li>{{ instrument.instrument_name }}</li>
+    <ul>
+      {% for files in site.data %}
+        {% assign file_data = files %}
+        {% for item in file_data %}
+          {% if item.file %}
+            <li><strong>Arquivo:</strong> {{ item.file }}</li>
+          {% endif %}
+          {% if item.bpm %}
+            <li><strong>BPM:</strong> {{ item.bpm }}</li>
+          {% endif %}
+          <ul>
+            {% for track in item.tracks %}
+              <li><strong>Nome da Faixa:</strong> {{ track.track_name }} ({{ track.type }})</li>
+              <ul>
+                {% for instrument in track.instruments %}
+                  <li><strong>Instrumento:</strong> {{ instrument.instrument_name }}</li>
+                {% endfor %}
+              </ul>
             {% endfor %}
-            </ul>
+          </ul>
         {% endfor %}
-        </ul>
-    {% endfor %}
-{% endfor %}
-</ul>
+      {% endfor %}
+    </ul>
+  </div>
+</main>

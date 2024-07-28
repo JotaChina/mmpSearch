@@ -1,31 +1,36 @@
 ---
 layout: default
-title: Quantidade de repetições de instrumentos
+title: Quantidade de Repetições de Instrumentos
 permalink: /quantasVezesAparecemInstrumentos/
 ---
 
-<h2>Quantidade de vezes que cada instrumento é utilizado:</h2>
-<ul id="instrument-list">
-{% for item in site.data.processed_data %}
-    <li data-count="{{ item.count }}">{{ item.instrument_name }}: {{ item.count }}</li>
-{% endfor %}
-</ul>
+<main class="main-content">
+  <div class="container">
+    <h2>Quantidade de vezes que cada instrumento é utilizado:</h2>
+    <ul id="instrument-list">
+      {% for item in site.data.processed_data %}
+        <li data-count="{{ item.count }}">{{ item.instrument_name }}: {{ item.count }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</main>
 
 <script>
-// Apenas para deixar em ordem decrescente
-document.addEventListener("DOMContentLoaded", function() {
+  // Ordenação dos itens em ordem decrescente por contagem
+  document.addEventListener("DOMContentLoaded", function() {
     var instrumentList = document.getElementById('instrument-list');
     var items = Array.from(instrumentList.children);
-    
+
     items.sort(function(a, b) {
-        var countA = parseInt(a.getAttribute('data-count'));
-        var countB = parseInt(b.getAttribute('data-count'));
-        return countB - countA; // Ordenação decrescente
+      var countA = parseInt(a.getAttribute('data-count'));
+      var countB = parseInt(b.getAttribute('data-count'));
+      return countB - countA; // Ordenação decrescente
     });
 
     instrumentList.innerHTML = '';
     items.forEach(function(item) {
-        instrumentList.appendChild(item);
+      instrumentList.appendChild(item);
     });
-});
+  });
 </script>
+

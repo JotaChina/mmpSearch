@@ -14,20 +14,41 @@ def parse_instrument(instrumenttrack_element):
         'usemasterpitch': instrumenttrack_element.attrib.get('usemasterpitch', 'N/A')
     }
 
-    # Verifica se o instrumento é o 'sfxr'
+    plugins = {}
+
+    # Instrumento
     instrument = instrumenttrack_element.find('.//instrument')
     if instrument is not None:
         instrument_name = instrument.attrib.get('name', 'N/A')
         instrument_info['instrument_name'] = instrument_name
 
-        if instrument_name.lower() == "sfxr":
-            sfxr = instrument.find('.//sfxr')  # Buscando pelo plugin "sfxr"
-            if sfxr is not None:
-                instrument_info['sfxr'] = {}
-                for key, value in sfxr.attrib.items():
-                    instrument_info['sfxr'][key] = value
+        # Verificando se há plugins e agrupando-os
+        if instrument_name.lower() == "gigplayer":
+            gigplayer = instrument.find('.//gigplayer')
+            if gigplayer is not None:
+                plugins['gigplayer'] = {
+                    key: value for key, value in gigplayer.attrib.items()
+                }
+        
+        if instrument_name.lower() == "papu":
+            papu = instrument.find('.//papu')
+            if papu is not None:
+                plugins['papu'] = {
+                    key: value for key, value in papu.attrib.items()
+                }
 
-    # Extraindo os dados do <eldata>
+        if instrument_name.lower() == "bitinvader":
+            bitinvader = instrument.find('.//bitinvader')
+            if bitinvader is not None:
+                plugins['bitinvader'] = {
+                    key: value for key, value in bitinvader.attrib.items()
+                }
+
+    # Se há plugins, adicionar na informação da track
+    if plugins:
+        instrument_info['plugins'] = plugins
+
+    # Dados de <eldata> e seus filhos
     eldata = instrumenttrack_element.find('.//eldata')
     if eldata is not None:
         instrument_info['eldata'] = {

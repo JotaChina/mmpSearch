@@ -55,6 +55,41 @@ def parse_instrument(instrumenttrack_element):
                 for key, value in tag_element.attrib.items():
                     instrument_info[tag_name][key] = value
 
+        # Extraindo dados do <INSTRUMENT_EFFECTS>, <SYSTEM_EFFECTS>, <INSERTION_EFFECTS>
+        instrument_effects = instrumenttrack_element.findall('.//INSTRUMENT_EFFECTS/INSTRUMENT_EFFECT')
+        if instrument_effects:
+            instrument_info['instrument_effects'] = []
+            for effect in instrument_effects:
+                effect_info = {}
+                for param in effect.findall('.//par'):
+                    effect_info[param.attrib['name']] = param.attrib['value']
+                instrument_info['instrument_effects'].append(effect_info)
+
+        system_effects = instrumenttrack_element.findall('.//SYSTEM_EFFECTS/SYSTEM_EFFECT')
+        if system_effects:
+            instrument_info['system_effects'] = []
+            for effect in system_effects:
+                effect_info = {}
+                for param in effect.findall('.//par'):
+                    effect_info[param.attrib['name']] = param.attrib['value']
+                instrument_info['system_effects'].append(effect_info)
+
+        insertion_effects = instrumenttrack_element.findall('.//INSERTION_EFFECTS/INSERTION_EFFECT')
+        if insertion_effects:
+            instrument_info['insertion_effects'] = []
+            for effect in insertion_effects:
+                effect_info = {}
+                for param in effect.findall('.//par'):
+                    effect_info[param.attrib['name']] = param.attrib['value']
+                instrument_info['insertion_effects'].append(effect_info)
+
+        # Extraindo dados do <CONTROLLER>
+        controller = instrumenttrack_element.find('.//CONTROLLER')
+        if controller is not None:
+            instrument_info['controller'] = {}
+            for param in controller.findall('.//par'):
+                instrument_info['controller'][param.attrib['name']] = param.attrib['value']
+
         return instrument_info
 
     except Exception as e:

@@ -15,19 +15,19 @@ def parse_instrument(instrumenttrack_element):
             'usemasterpitch': instrumenttrack_element.attrib.get('usemasterpitch', 'N/A')
         }
 
-        # Buscando o nome do plugin
+        # Extraindo o instrumento e verificando se é o plugin "vibedstrings" ou "tripleoscillator"
         instrument = instrumenttrack_element.find('.//instrument')
         if instrument is not None:
             instrument_name = instrument.attrib.get('name', 'N/A')
             instrument_info['instrument_name'] = instrument_name
             
-            # Caso seja o plugin "watsyn", extraímos informações específicas
-            if instrument_name.lower() == "watsyn":
-                watsyn = instrument.find('.//watsyn')  # Buscando pelo plugin "watsyn"
-                if watsyn is not None:
-                    instrument_info['watsyn'] = {}
-                    for key, value in watsyn.attrib.items():
-                        instrument_info['watsyn'][key] = value
+            # Verificar se é o "vibedstrings" e extrair os atributos
+            if instrument_name.lower() == "vibedstrings":
+                vibedstrings = instrument.find('.//vibedstrings')  # Buscando pelo plugin "vibedstrings"
+                if vibedstrings is not None:
+                    instrument_info['vibedstrings'] = {}
+                    for key, value in vibedstrings.attrib.items():
+                        instrument_info['vibedstrings'][key] = value
 
         # Extraindo os dados do <eldata>
         eldata = instrumenttrack_element.find('.//eldata')
@@ -57,6 +57,6 @@ def parse_instrument(instrumenttrack_element):
 
         return instrument_info
 
-    except Exception as e:
-        print(f'Erro ao processar o instrumento: {e}')
-        return {'error': f"Erro ao processar o instrumento: {e}"}
+    except ET.ParseError as e:
+        print(f'Erro ao analisar o arquivo XML: {e}')
+        return None

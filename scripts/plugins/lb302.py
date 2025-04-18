@@ -14,18 +14,18 @@ def parse_instrument(instrumenttrack_element):
         'usemasterpitch': instrumenttrack_element.attrib.get('usemasterpitch', 'N/A')
     }
 
-    # Verifica se o instrumento é o 'sfxr'
+    # Verifica se o instrumento é o 'lb302'
     instrument = instrumenttrack_element.find('.//instrument')
     if instrument is not None:
         instrument_name = instrument.attrib.get('name', 'N/A')
         instrument_info['instrument_name'] = instrument_name
 
-        if instrument_name.lower() == "sfxr":
-            sfxr = instrument.find('.//sfxr')  # Buscando pelo plugin "sfxr"
-            if sfxr is not None:
-                instrument_info['sfxr'] = {}
-                for key, value in sfxr.attrib.items():
-                    instrument_info['sfxr'][key] = value
+        if instrument_name.lower() == "lb302":
+            lb302 = instrument.find('.//lb302')  # Buscando pelo plugin "lb302"
+            if lb302 is not None:
+                instrument_info['lb302'] = {}
+                for key, value in lb302.attrib.items():
+                    instrument_info['lb302'][key] = value
 
     # Extraindo os dados do <eldata>
     eldata = instrumenttrack_element.find('.//eldata')

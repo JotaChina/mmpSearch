@@ -14,20 +14,29 @@ def parse_instrument(instrumenttrack_element):
         'usemasterpitch': instrumenttrack_element.attrib.get('usemasterpitch', 'N/A')
     }
 
-    # Verifica se o instrumento é o 'sfxr'
+    # Instrumento
     instrument = instrumenttrack_element.find('.//instrument')
     if instrument is not None:
         instrument_name = instrument.attrib.get('name', 'N/A')
         instrument_info['instrument_name'] = instrument_name
 
-        if instrument_name.lower() == "sfxr":
-            sfxr = instrument.find('.//sfxr')  # Buscando pelo plugin "sfxr"
-            if sfxr is not None:
-                instrument_info['sfxr'] = {}
-                for key, value in sfxr.attrib.items():
-                    instrument_info['sfxr'][key] = value
+        # Verificar e processar o plugin "papu"
+        if instrument_name.lower() == "papu":
+            papu = instrument.find('.//papu')
+            if papu is not None:
+                instrument_info['papu'] = {
+                    key: value for key, value in papu.attrib.items()
+                }
 
-    # Extraindo os dados do <eldata>
+        # Verificar e processar o plugin "bitinvader"
+        if instrument_name.lower() == "bitinvader":
+            bitinvader = instrument.find('.//bitinvader')
+            if bitinvader is not None:
+                instrument_info['bitinvader'] = {
+                    key: value for key, value in bitinvader.attrib.items()
+                }
+
+    # Dados de <eldata> e seus filhos
     eldata = instrumenttrack_element.find('.//eldata')
     if eldata is not None:
         instrument_info['eldata'] = {
@@ -37,6 +46,7 @@ def parse_instrument(instrumenttrack_element):
             'fres': eldata.attrib.get('fres', 'N/A')
         }
 
+        # Extraindo dados dos elementos <elvol>, <elcut>, <elres>
         for el in ['elvol', 'elcut', 'elres']:
             el_element = eldata.find(f'.//{el}')
             if el_element is not None:

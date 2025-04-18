@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 
-def parse_mmp_file(file_path):
+def parse_automation(file_path):
     try:
         tree = ET.parse(file_path)
         root = tree.getroot()

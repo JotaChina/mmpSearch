@@ -1,39 +1,545 @@
 bpm: '120'
-file: mmp/deprecado_wallace.mmp
+file: deprecado_wallace
+src: /nethome/jotachina/projetos/mmpSearch/mmp/deprecado_wallace.mmp
+tags:
+  TAG:
+  - plugin
+  - sample
+  - bassline
+  - automation
+  automation:
+  - Automation track
+  bassline:
+  - Beat
+  - Beat2
+  - BossaNova
+  - Bassline
+  - Piano
+  plugin:
+  - tripleoscillator
+  - audiofileprocessor
+  - kicker
+  sample:
+  - Sample track
 tracks:
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '100'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrument_name: tripleoscillator
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  tags: tripleoscillator
   track_name: TripleOscillator
+  tripleoscillator:
+    coarse0: '0'
+    coarse1: '-12'
+    coarse2: '-24'
+    finel0: '0'
+    finel1: '0'
+    finel2: '0'
+    finer0: '0'
+    finer1: '0'
+    finer2: '0'
+    modalgo1: '2'
+    modalgo2: '2'
+    modalgo3: '2'
+    pan0: '0'
+    pan1: '0'
+    pan2: '0'
+    phoffset0: '0'
+    phoffset1: '0'
+    phoffset2: '0'
+    stphdetun0: '0'
+    stphdetun1: '0'
+    stphdetun2: '0'
+    userwavefile0: ''
+    userwavefile1: ''
+    userwavefile2: ''
+    vol0: '33'
+    vol1: '33'
+    vol2: '33'
+    wavetype0: '0'
+    wavetype1: '0'
+    wavetype2: '0'
   type: plugin
-- instruments: []
+- sample_info:
+    pan: '0'
+    vol: '100'
+  sample_name: null
   track_name: Sample track
   type: sample
-- instruments:
-  - instrument_name: Kicker
-  - instrument_name: kick_hard01.ogg
-  - instrument_name: snare01.ogg
-  - instrument_name: hihat_closed03.ogg
-  - instrument_name: clav01.ogg
-  - instrument_name: crash01.ogg
-  - instrument_name: shaker01.ogg
-  - instrument_name: shaker02.ogg
-  - instrument_name: matrix1000_pluck01.ogg
-  - instrument_name: piano01.ogg
-  - instrument_name: soft_piano.ds
-  - instrument_name: snare_rim01.ogg
-  track_name: Beat
+- bassline_name: Beat
+  instruments:
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: Kicker
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/kick_hard01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '2'
+    instrument_name: kick_hard01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/snare01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: snare01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_closed03.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: hihat_closed03.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/clav01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: clav01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/crash01.ogg
+      stutter: '0'
+    basenote: '64'
+    fxch: '4'
+    instrument_name: crash01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '23.4'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/shaker01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: shaker01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '50'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/shaker02.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: shaker02.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '50'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: basses/matrix1000_pluck01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '3'
+    instrument_name: matrix1000_pluck01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: ''
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/piano01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '5'
+    instrument_name: piano01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '40.8'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drumsynth/instrument/soft_piano.ds
+      stutter: '0'
+    basenote: '57'
+    fxch: '6'
+    instrument_name: soft_piano.ds
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/snare_rim01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: snare_rim01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  tags: audiofileprocessor
   type: bassline
-- instruments: []
-  track_name: Beat2
+- bassline_name: Beat2
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: BossaNova
+- bassline_name: BossaNova
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Bassline
+- bassline_name: Bassline
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Piano
+- bassline_name: Piano
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
+- automations:
+  - automation_name: Automation track
+    automation_patterns:
+    - len: '768'
+      mute: '0'
+      name: matrix1000_pluck01.ogg>Volume
+      pos: '0'
+      prog: '2'
+      tens: '1'
+      times:
+      - pos: '0'
+        value: '0'
+      - pos: '384'
+        value: '100'
+    automationtrack: Present
+    type: automation
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrument_name: kicker
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  kicker:
+    click: '0'
+    decay: '5000'
+    decay_denominator: '4'
+    decay_numerator: '4'
+    decay_syncmode: '0'
+    dist: '0.8'
+    distend: '0.8'
+    endfreq: '40'
+    endnote: '0'
+    env: '0.163'
+    gain: '1'
+    noise: '1'
+    slope: '0.06'
+    startfreq: '150'
+    startnote: '1'
+    version: '1'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
   track_name: Noise
   type: plugin

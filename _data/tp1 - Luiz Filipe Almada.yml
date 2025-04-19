@@ -1,34 +1,217 @@
 bpm: '140'
-file: mmp/tp1 - Luiz Filipe Almada.mmp
+file: tp1 - Luiz Filipe Almada
+src: /nethome/jotachina/projetos/mmpSearch/mmp/tp1 - Luiz Filipe Almada.mmp
+tags:
+  TAG:
+  - bassline
+  automation: []
+  bassline:
+  - Kick
+  - Hihat - continuo
+  - HiHat2
+  - HiHat - passagem
+  - Clap
+  - Melody1
+  - Bass
+  plugin:
+  - audiofileprocessor
+  sample: []
 tracks:
-- instruments:
-  - instrument_name: Kicker
-  - instrument_name: kick04.ogg
-  - instrument_name: hihat_closed04.ogg
-  - instrument_name: hihat_closed03.ogg
-  - instrument_name: hihat_closed01.ogg
-  - instrument_name: hihat_opened01.ogg
-  - instrument_name: steel_guitar01.ogg
-  - instrument_name: TripleOscillator
-  - instrument_name: clap01.ogg
-  - instrument_name: piano01.ogg
-  track_name: Kick
+- bassline_name: Kick
+  instruments:
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: Kicker
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/kick04.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: kick04.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_closed04.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '2'
+    instrument_name: hihat_closed04.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_closed03.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '1'
+    instrument_name: hihat_closed03.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '84'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0.000554324'
+      looped: '0'
+      reversed: '0'
+      sframe: '0.000369549'
+      src: drums/hihat_closed01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: hihat_closed01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_opened01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '5'
+    instrument_name: hihat_opened01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '84'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/steel_guitar01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '4'
+    instrument_name: steel_guitar01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: TripleOscillator
+    instrument_type: '0'
+    pan: '0'
+    pitch: '1'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '40.8'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/clap01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: clap01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/piano01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '3'
+    instrument_name: piano01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '80'
+  tags: audiofileprocessor
   type: bassline
-- instruments: []
-  track_name: Hihat - continuo
+- bassline_name: Hihat - continuo
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: HiHat2
+- bassline_name: HiHat2
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: HiHat - passagem
+- bassline_name: HiHat - passagem
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Clap
+- bassline_name: Clap
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Melody1
+- bassline_name: Melody1
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Bass
+- bassline_name: Bass
+  instruments: []
+  tags: ''
   type: bassline

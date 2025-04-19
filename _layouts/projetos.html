@@ -1,0 +1,102 @@
+---
+layout: default
+title: "{{ page.file }}"
+---
+
+<div class="publication">
+  {% include sidebar.html %}
+  <main class="content">
+    <div class="container">
+
+      <h1>{{ page.file }}</h1>
+
+      <div class="project-meta" style="margin-bottom: 2rem;">
+        {% if page.file %}
+          <h2><strong>📁 Arquivo fonte:</strong> {{ page.file }}</h2>
+        {% endif %}
+        {% if page.bpm %}
+          <h3><strong>🎵 BPM:</strong> {{ page.bpm }}</h3>
+        {% endif %}
+      </div>
+
+      {% if page.tags %}
+        {% assign tags_vazias = true %}
+        {% for categoria in page.tags %}
+          {% if categoria[1].size > 0 %}
+            {% assign tags_vazias = false %}
+          {% endif %}
+        {% endfor %}
+
+        {% unless tags_vazias %}
+        <section class="tags-section" style="margin-bottom: 2rem;">
+          <h3>🏷️ Tags</h3>
+          <ul style="list-style: none; padding-left: 0;">
+            {% for categoria in page.tags %}
+              {% if categoria[1].size > 0 %}
+              <li style="margin-bottom: 1rem;">
+                <strong>{{ categoria[0] }}:</strong>
+                <ul style="display: flex; flex-wrap: wrap; list-style: none; padding-left: 0; margin-top: 0.5rem;">
+                  {% for valor in categoria[1] %}
+                    <li style="background-color: #eee; border-radius: 15px; padding: 0.3rem 0.8rem; margin: 0.2rem; font-size: 0.9rem;">
+                      {{ valor }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </section>
+        {% endunless %}
+      {% endif %}
+
+      {% if page.tracks and page.tracks.size > 0 %}
+      <section class="instruments-section">
+        <h2>🎚️ Instrumentos</h2>
+        <ul style="list-style: none; padding-left: 0;">
+          {% for track in page.tracks %}
+            {% assign tem_instr = false %}
+            {% if track.instruments %}
+              {% if track.instruments.size > 0 %}
+                {% assign tem_instr = true %}
+              {% endif %}
+            {% endif %}
+
+            {% if track.bassline_name %}
+              {% assign mostrar_track = true %}
+            {% elsif tem_instr %}
+              {% assign mostrar_track = true %}
+            {% else %}
+              {% assign mostrar_track = false %}
+            {% endif %}
+
+            {% if mostrar_track %}
+            <li style="margin-bottom: 1.5rem;">
+              {% if track.bassline_name %}
+                <strong style="font-size: 1.1rem;">🎼 {{ track.bassline_name }}</strong>
+              {% endif %}
+
+              {% if tem_instr %}
+                <ul style="margin-top: 0.5rem; padding-left: 1rem;">
+                  {% for instrument in track.instruments %}
+                    {% if instrument.instrument_name %}
+                    <li style="margin-bottom: 0.3rem;">
+                      <code>{{ instrument.instrument_name }}</code>
+                      {% if instrument.audiofileprocessor and instrument.audiofileprocessor.src %}
+                        — <em>{{ instrument.audiofileprocessor.src }}</em>
+                      {% endif %}
+                    </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+    </div>
+  </main>
+</div>

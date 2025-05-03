@@ -1,0 +1,141 @@
+---
+layout: default
+title: "{{ page.file }}"
+---
+
+<div class="publication">
+  {% include sidebar.html %}
+  <main class="content">
+    <div class="container">
+
+      <!-- Título -->
+      <h1 class="title is-3 mb-4"><code>{{ page.file }}</h1></code>
+
+      <!-- Metadados (Arquivo fonte + BPM) -->
+      {% if page.file or page.bpm %}
+      <div class="mb-5">
+        <div class="columns is-mobile is-multiline is-vcentered">
+          {% if page.file %}
+            <div class="column is-narrow">
+              <span><strong><code>📁 Arquivo:</strong> {{ page.file }}</span></code>
+            </div>
+          {% endif %}
+          {% if page.bpm %}
+            <div class="column is-narrow">
+              <span><strong><code>🎵 BPM:</strong> {{ page.bpm }}</span></code>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Tags -->
+      {% if page.tags %}
+        {% assign tags_vazias = true %}
+        {% for categoria in page.tags %}
+          {% if categoria[1].size > 0 %}
+            {% assign tags_vazias = false %}
+          {% endif %}
+        {% endfor %}
+
+        {% unless tags_vazias %}
+        <section class="tags-section mb-6">
+          <!-- Verificar se o arquivo .wav existe -->
+          {% assign audio_file = '/mmp/wav/' | append: page.file | append: '.wav' %}
+
+          <!-- Exibir player de áudio -->
+          {% if audio_file %}
+            <section class="audio-player-section mb-6">
+              <audio controls>
+                <source src="{{ audio_file | relative_url }}" type="audio/wav">
+                Seu navegador não suporta o elemento <code>audio</code>.
+              </audio>
+            </section>
+          {% endif %}
+
+          <h2 class="title is-5"><code>🏷️ Tags</code></h2>
+          {% for categoria in page.tags %}
+            {% if categoria[1].size > 0 %}
+              <div class="mb-4">
+                <strong><code>{{ categoria[0] }}:</strong></code>
+                <div class="tags mt-2">
+                  {% for valor in categoria[1] %}
+                    {% if valor != "" %}
+                      {% assign tag_slug = valor | replace: ' ', '+' %}
+
+                      <!-- Gerar link para filtro por categoria -->
+                      {% if categoria[0] == 'bassline' %}
+                        <a href="{{ '/bassline/?bassline=' | append: tag_slug | relative_url }}" class="tag is-info is-light">{{ valor }}</a>
+                      {% elsif categoria[0] == 'sample' %}
+                        <a href="{{ '/sample/?sample=' | append: tag_slug | relative_url }}" class="tag is-info is-light">{{ valor }}</a>
+                      {% elsif categoria[0] == 'plugin' %}
+                        <a href="{{ '/plugin/?plugin=' | append: tag_slug | relative_url }}" class="tag is-info is-light">{{ valor }}</a>
+                      {% elsif categoria[0] == 'automation' %}
+                        <a href="{{ '/automation/?automation=' | append: tag_slug | relative_url }}" class="tag is-info is-light">{{ valor }}</a>
+                      {% else %}
+                        <a href="{{ '/' | append: tag_slug | relative_url }}" class="tag is-info is-light">{{ valor }}</a>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </section>
+        {% endunless %}
+      {% endif %}
+
+      <!-- Instrumentos -->
+      {% if page.tracks and page.tracks.size > 0 %}
+      <section class="instruments-section">
+        <h2 class="title is-5"><code>🎚️ Instrumentos</h2></code>
+        <div class="content">
+          <ul style="list-style: none; padding-left: 0;">
+            {% for track in page.tracks %}
+              {% assign tem_instr = false %}
+              {% if track.instruments and track.instruments.size > 0 %}
+                {% assign tem_instr = true %}
+              {% endif %}
+
+              {% if track.bassline_name or tem_instr %}
+              <li class="mb-5">
+                {% if track.bassline_name %}
+                  <p class="has-text-weight-bold mb-2">🎼 {{ track.bassline_name }}</p>
+                {% endif %}
+
+                {% if tem_instr %}
+                  <ul class="pl-4">
+                    {% for instrument in track.instruments %}
+                      {% if instrument.instrument_name %}
+                      <li style="margin-bottom: 0.4rem;">
+                        <!-- Gerar link para filtro por instrumento -->
+                        {% assign instrument_slug = instrument.instrument_name | replace: ' ', '+' %}
+
+                        <a href="{{ '/instruments/?instrument=' | append: instrument_slug | relative_url }}" class="tag is-info is-light">
+                          <code>{{ instrument.instrument_name }}</code>
+                        </a>
+
+                        {% if instrument.audiofileprocessor and instrument.audiofileprocessor.src %}
+                          <!-- Exibir player de áudio para o instrumento -->
+                          <div class="audio-player-section mt-3">
+                            <audio controls>
+                              <source src="{{ instrument.audiofileprocessor.src | relative_url }}" type="audio/wav">
+                              Seu navegador não suporta o elemento <code>audio</code>.
+                            </audio>
+                          </div>
+                        {% endif %}
+                      </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endif %}
+    </div>
+  </main>
+</div>

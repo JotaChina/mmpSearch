@@ -1,71 +1,266 @@
 {
-    "file": "mmp/tp1 - Luiz Filipe Almada.mmp",
+    "file": "tp1 - Luiz Filipe Almada",
+    "src": "/nethome/jotachina/projetos/mmpSearch/mmp/tp1 - Luiz Filipe Almada.mmp",
     "bpm": "140",
+    "tags": {
+        "TAG": [
+            "bassline"
+        ],
+        "plugin": [
+            "audiofileprocessor"
+        ],
+        "sample": [],
+        "bassline": [
+            "Kick",
+            "Hihat - continuo",
+            "HiHat2",
+            "HiHat - passagem",
+            "Clap",
+            "Melody1",
+            "Bass"
+        ],
+        "automation": []
+    },
     "tracks": [
         {
-            "track_name": "Kick",
+            "bassline_name": "Kick",
             "type": "bassline",
+            "tags": "audiofileprocessor",
             "instruments": [
                 {
-                    "instrument_name": "Kicker"
+                    "instrument_name": "Kicker",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
                 },
                 {
-                    "instrument_name": "kick04.ogg"
+                    "instrument_name": "kick04.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/kick04.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed04.ogg"
+                    "instrument_name": "hihat_closed04.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "2",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed04.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed03.ogg"
+                    "instrument_name": "hihat_closed03.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "84",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed03.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed01.ogg"
+                    "instrument_name": "hihat_closed01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed01.ogg",
+                        "lframe": "0.000554324",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0.000369549",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_opened01.ogg"
+                    "instrument_name": "hihat_opened01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "84",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "5",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_opened01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "steel_guitar01.ogg"
+                    "instrument_name": "steel_guitar01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "4",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/steel_guitar01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "TripleOscillator"
+                    "instrument_name": "TripleOscillator",
+                    "instrument_type": "0",
+                    "pitch": "1",
+                    "pan": "0",
+                    "vol": "40.8",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
                 },
                 {
-                    "instrument_name": "clap01.ogg"
+                    "instrument_name": "clap01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/clap01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "piano01.ogg"
+                    "instrument_name": "piano01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "80",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "3",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/piano01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 }
             ]
         },
         {
-            "track_name": "Hihat - continuo",
+            "bassline_name": "Hihat - continuo",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "HiHat2",
+            "bassline_name": "HiHat2",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "HiHat - passagem",
+            "bassline_name": "HiHat - passagem",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clap",
+            "bassline_name": "Clap",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Melody1",
+            "bassline_name": "Melody1",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Bass",
+            "bassline_name": "Bass",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         }
     ]

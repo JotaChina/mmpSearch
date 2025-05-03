@@ -1,61 +1,784 @@
 bpm: '121'
-file: mmp/FelipeFerraz.mmp
+file: FelipeFerraz
+src: /nethome/jotachina/projetos/mmpSearch/mmp/FelipeFerraz.mmp
+tags:
+  TAG:
+  - bassline
+  - plugin
+  automation: []
+  bassline:
+  - Intro
+  - Verse1
+  - Bass
+  - Gunshots
+  - Verse2
+  - SwitchBeatLight
+  - LightBeat/Verse3
+  - TransitionTest
+  - TestBeat
+  - Closer
+  - Outro
+  plugin:
+  - audiofileprocessor
+  - zynaddsubfx
+  sample: []
 tracks:
-- instruments:
-  - instrument_name: MB 808 (20).wav
-  - instrument_name: Cymatics x S1 - Closed Hihat 8.wav
-  - instrument_name: Cymatics x S1 - Open Hihat 10.wav
-  - instrument_name: Cymatics x S1 - Juno Bass 1 - F.wav
-  - instrument_name: Cymatics x S1 - Juno Bass 2 - F.wav
-  - instrument_name: Cymatics - Gun Cock.wav
-  - instrument_name: Cymatics - Gunshot Beefy.wav
-  - instrument_name: Cymatics - Adrenaline Clap.wav
-  - instrument_name: Cymatics - Blasted 808 - C.wav
-  - instrument_name: Cymatics - Titan Kick 48 - F#.wav
-  - instrument_name: Cymatics - 9God Snare 5 - A.wav
-  - instrument_name: Cymatics - 9God Snare 4 - G#.wav
-  - instrument_name: Cymatics x S1 - Closed Hihat 10.wav
-  - instrument_name: MB Lumi Hit.wav
-  - instrument_name: Cymatics - Titan Arp Loop 2 - 100 BPM E Min.wav
-  - instrument_name: MB Clap (12).wav
-  track_name: Intro
+- bassline_name: Intro
+  instruments:
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/metro_boomin_drum_kit/Metro Boomin Drum
+        Kit/808s/MB 808 (20).wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '1'
+    instrument_name: MB 808 (20).wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics x S1 - Artist Series Sample
+        Pack/Hihats/Cymatics x S1 - Closed Hihat 8.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics x S1 - Closed Hihat 8.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics x S1 - Artist Series Sample
+        Pack/Hihats/Cymatics x S1 - Open Hihat 10.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics x S1 - Open Hihat 10.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '0.99999791'
+      interp: '1'
+      lframe: '1.4077845e-06'
+      looped: '0'
+      reversed: '0'
+      sframe: '7.0389217e-07'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics x S1 - Artist Series Sample
+        Pack/Basses/Cymatics x S1 - Juno Bass 1 - F.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics x S1 - Juno Bass 1 - F.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '90'
+      eframe: '1'
+      interp: '1'
+      lframe: '4.9272177e-05'
+      looped: '0'
+      reversed: '0'
+      sframe: '4.2233296e-05'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics x S1 - Artist Series Sample
+        Pack/Basses/Cymatics x S1 - Juno Bass 2 - F.wav
+      stutter: '0'
+    basenote: '79'
+    fxch: '0'
+    instrument_name: Cymatics x S1 - Juno Bass 2 - F.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '119.9'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Trap Starter Pack/FX/Cymatics
+        - Gun Cock.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Gun Cock.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100.1'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Trap Starter Pack/FX/Cymatics
+        - Gunshot Beefy.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Gunshot Beefy.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Trap Starter Pack/Claps/Cymatics
+        - Adrenaline Clap.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Adrenaline Clap.wav
+    instrument_type: '0'
+    pan: '-0.1'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Trap Starter Pack/808s/Cymatics
+        - Blasted 808 - C.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Blasted 808 - C.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Future Bass Starter Pack/Drums
+        - One Shots/Kicks/Cymatics - Titan Kick 48 - F#.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Titan Kick 48 - F#.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - 9God Hip Hop Sample Pack/Drums
+        - One Shots/Snares/Cymatics - 9God Snare 5 - A.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - 9God Snare 5 - A.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - 9God Hip Hop Sample Pack/Drums
+        - One Shots/Snares/Cymatics - 9God Snare 4 - G#.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - 9God Snare 4 - G#.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics x S1 - Artist Series Sample
+        Pack/Hihats/Cymatics x S1 - Closed Hihat 10.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics x S1 - Closed Hihat 10.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/metro_boomin_drum_kit/Metro Boomin Drum
+        Kit/Extras/MB Lumi Hit.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: MB Lumi Hit.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '99.900002'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/Cymatics - Future Bass Starter Pack/Synths
+        - Loops/Arp Loops/Cymatics - Titan Arp Loop 2 - 100 BPM E Min.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: Cymatics - Titan Arp Loop 2 - 100 BPM E Min.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: /Users/felipeferraz/Documents/lmms/metro_boomin_drum_kit/Metro Boomin Drum
+        Kit/Claps/MB Clap (12).wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: MB Clap (12).wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  tags: audiofileprocessor
   type: bassline
-- instruments: []
-  track_name: Verse1
+- bassline_name: Verse1
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Bass
+- bassline_name: Bass
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  audiofileprocessor:
+    amp: '100'
+    eframe: '1'
+    interp: '1'
+    lframe: '0'
+    looped: '0'
+    reversed: '0'
+    sframe: '0'
+    src: instruments/e_piano_accord01.ogg
+    stutter: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  plugin_name: audiofileprocessor
   track_name: e_piano_accord01.ogg
   type: plugin
-- instruments: []
-  track_name: Gunshots
+- bassline_name: Gunshots
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Verse2
+- bassline_name: Verse2
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: SwitchBeatLight
+- bassline_name: SwitchBeatLight
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: LightBeat/Verse3
+- bassline_name: LightBeat/Verse3
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: TransitionTest
+- bassline_name: TransitionTest
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: TestBeat
+- bassline_name: TestBeat
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Closer
+- bassline_name: Closer
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  controller:
+    bandwidth_depth: '64'
+    filter_cutoff_depth: '64'
+    filter_q_depth: '64'
+    mod_wheel_depth: '80'
+    panning_depth: '64'
+    pitchwheel_bendrange: '100'
+    portamento_pitchthresh: '3'
+    portamento_pitchthreshtype: '1'
+    portamento_portamento: '0'
+    portamento_propdepth: '90'
+    portamento_proportional: '0'
+    portamento_proprate: '80'
+    portamento_time: '64'
+    portamento_updowntimestretch: '64'
+    resonance_bandwidth_depth: '64'
+    resonance_center_depth: '64'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  insertion_effects:
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  - part: '-1'
+    type: '0'
+  instrument_effects:
+  - par: '119'
+    preset: '0'
+    route: '0'
+    type: '3'
+  - par: '64'
+    preset: '0'
+    route: '0'
+    type: '1'
+  - route: '0'
+    type: '0'
+  instrument_name: zynaddsubfx
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  system_effects:
+  - send_vol: '0'
+    type: '0'
+    vol: '0'
+  - send_vol: '0'
+    type: '0'
+    vol: '0'
+  - send_vol: '0'
+    type: '0'
+    vol: '0'
+  - type: '0'
+    vol: '0'
   track_name: Full Strings
   type: plugin
-- instruments: []
-  track_name: Outro
+- bassline_name: Outro
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  audiofileprocessor:
+    amp: '100'
+    eframe: '1'
+    interp: '1'
+    lframe: '0'
+    looped: '0'
+    reversed: '0'
+    sframe: '0'
+    src: stringsnpads/rave_choir01.ogg
+    stutter: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  plugin_name: audiofileprocessor
   track_name: rave_choir01.ogg
   type: plugin

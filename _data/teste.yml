@@ -1,0 +1,128 @@
+bpm: '140'
+file: teste
+src: /nethome/jotachina/projetos/mmpSearch/mmp/teste.mmp
+tags:
+  TAG:
+  - plugin
+  automation: []
+  bassline: []
+  plugin:
+  - audiofileprocessor
+  sample: []
+tracks:
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  audiofileprocessor:
+    amp: '100'
+    eframe: '1'
+    interp: '1'
+    lframe: '0'
+    looped: '0'
+    reversed: '0'
+    sframe: '0'
+    src: drums/clap01.ogg
+    stutter: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  plugin_name: audiofileprocessor
+  track_name: clap01.ogg
+  type: plugin

@@ -1,71 +1,607 @@
 bpm: '110'
-file: mmp/Iara Rodrigues.mmp
+file: Iara Rodrigues
+src: /nethome/jotachina/projetos/mmpSearch/mmp/Iara Rodrigues.mmp
+tags:
+  TAG:
+  - plugin
+  - sample
+  - bassline
+  - automation
+  automation:
+  - Automation track
+  bassline:
+  - Beat/Bassline 0
+  - Bassline 1
+  - piu /Bassline2
+  - pieino
+  - ' pieino 2'
+  - ' pieino 3'
+  - Violino
+  - baixo engual eu
+  - '!!bass'
+  - start?
+  - meow
+  - meio
+  - Clone de meio
+  - emelym
+  plugin:
+  - tripleoscillator
+  - audiofileprocessor
+  sample:
+  - Sample track
 tracks:
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '100'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrument_name: tripleoscillator
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  tags: tripleoscillator
   track_name: TripleOscillator
+  tripleoscillator:
+    coarse0: '0'
+    coarse1: '-12'
+    coarse2: '-24'
+    finel0: '0'
+    finel1: '0'
+    finel2: '0'
+    finer0: '0'
+    finer1: '0'
+    finer2: '0'
+    modalgo1: '2'
+    modalgo2: '2'
+    modalgo3: '2'
+    pan0: '0'
+    pan1: '0'
+    pan2: '0'
+    phoffset0: '0'
+    phoffset1: '0'
+    phoffset2: '0'
+    stphdetun0: '0'
+    stphdetun1: '0'
+    stphdetun2: '0'
+    userwavefile0: ''
+    userwavefile1: ''
+    userwavefile2: ''
+    vol0: '33'
+    vol1: '33'
+    vol2: '33'
+    wavetype0: '0'
+    wavetype1: '0'
+    wavetype2: '0'
   type: plugin
-- instruments: []
+- sample_info:
+    pan: '0'
+    vol: '100'
+  sample_name: null
   track_name: Sample track
   type: sample
-- instruments:
-  - instrument_name: Kicker
-  - instrument_name: kick_distorted01.ogg
-  - instrument_name: clap04.ogg
-  - instrument_name: rim01.ogg
-  - instrument_name: shaker02.ogg
-  - instrument_name: bassdrum_acoustic01.ogg
-  - instrument_name: hihat_closed01.ogg
-  - instrument_name: kick_long01.ogg
-  - instrument_name: piano01.ogg
-  - instrument_name: violin_double_stop01.ogg
-  - instrument_name: harpsichord01.ogg
-  - instrument_name: bassslap02.ogg
-  - instrument_name: bassslap01.ogg
-  - instrument_name: cello01.ogg
-  - instrument_name: bassslap01.ogg
-  - instrument_name: bass!.ogg
-  - instrument_name: chroma_sound_effect01.ogg
-  - instrument_name: 110011__tuberatanka__cat-meow.wav
-  - instrument_name: wind_chimes01.ogg
-  - instrument_name: auauEmy.wav
-  track_name: Beat/Bassline 0
+- bassline_name: Beat/Bassline 0
+  instruments:
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: Kicker
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/kick_distorted01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: kick_distorted01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/clap04.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: clap04.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/rim01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: rim01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/shaker02.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: shaker02.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/bassdrum_acoustic01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassdrum_acoustic01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_closed01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: hihat_closed01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/kick_long01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: kick_long01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/piano01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: piano01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/violin_double_stop01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: violin_double_stop01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/harpsichord01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: harpsichord01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/bassslap02.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassslap02.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/bassslap01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassslap01.ogg
+    instrument_type: '0'
+    pan: '-0.4'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/cello01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: cello01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: instruments/bassslap01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassslap01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '99.8'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: misc/bass!.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bass!.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '99.8'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: effects/chroma_sound_effect01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: chroma_sound_effect01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: C:/Users/grigo/Downloads/110011__tuberatanka__cat-meow.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: 110011__tuberatanka__cat-meow.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: effects/wind_chimes01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: wind_chimes01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: C:/Users/grigo/Downloads/auauEmy.wav
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: auauEmy.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  tags: audiofileprocessor
   type: bassline
-- instruments: []
-  track_name: Bassline 1
+- bassline_name: Bassline 1
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: piu /Bassline2
+- automations:
+  - automation_name: Automation track
+    automation_patterns: []
+    automationtrack: Present
+    type: automation
+- bassline_name: piu /Bassline2
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: pieino
+- bassline_name: pieino
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: ' pieino 2'
+- bassline_name: ' pieino 2'
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: ' pieino 3'
+- bassline_name: ' pieino 3'
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Violino
+- bassline_name: Violino
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: baixo engual eu
+- bassline_name: baixo engual eu
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: '!!bass'
+- bassline_name: '!!bass'
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: start?
+- bassline_name: start?
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: meow
+- bassline_name: meow
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: meio
+- bassline_name: meio
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: Clone de meio
+- bassline_name: Clone de meio
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: emelym
+- bassline_name: emelym
+  instruments: []
+  tags: ''
   type: bassline

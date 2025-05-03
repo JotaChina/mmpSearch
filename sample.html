@@ -1,0 +1,124 @@
+---
+layout: default
+title: Projetos com a tag Sample
+permalink: /sample/
+---
+<meta charset="utf-8">
+
+<main class="main-content">  
+  <div class="publication">
+    {% include sidebar.html %}
+  </div>
+
+  <div class="container">
+    <div class="columns is-mobile is-vcentered" style="margin-bottom: 2rem;">
+      <!-- Título -->
+      <div class="column is-auto">
+        <h2 class="title is-4"><code>Projetos que possuem a tag sample:</code></h2>
+      </div>
+      <!-- Botão Limpar Filtro -->
+      <div class="column is-auto">
+        <button id="clearFilterButton" class="button is-small is-light">
+          Limpar filtro
+        </button>
+      </div>
+    </div>
+
+    <!-- Projetos -->
+    <div id="project-list" class="columns is-multiline">
+      {% for projeto in site.data.all %}
+        {% if projeto.tags.TAG contains "sample" %}
+          <div class="column is-6 project-item" data-sample="{{ projeto.tags.sample | join: ',' }}">
+            <div class="box">
+              <!-- Botão do projeto -->
+              {% assign file_url = projeto.file | downcase 
+                                    | replace: ' ', '-' 
+                                    | replace: 'ç', 'c' 
+                                    | replace: 'ã', 'a' 
+                                    | replace: 'á', 'a'
+                                    | replace: 'â', 'a'
+                                    | replace: 'é', 'e'
+                                    | replace: 'ê', 'e'
+                                    | replace: 'í', 'i' 
+                                    | replace: 'ó', 'o' 
+                                    | replace: 'ô', 'o'
+                                    | replace: 'õ', 'o'
+                                    | replace: 'ú', 'u' %}
+
+              <a href="../mmp_pages/{{ file_url }}.html" class="button is-link is-fullwidth">
+                {{ projeto.file }}
+              </a>
+
+              <!-- Lista de samples clicáveis -->
+              {% if projeto.tags.sample and projeto.tags.sample.size > 0 %}
+                <div style="margin-top: 1rem;">
+                  <p><strong>Sample:</strong></p>
+                  <ul style="list-style-type: disc; padding-left: 1.25rem;">
+                    {% for sample in projeto.tags.sample %}
+                      {% if sample != "" %}
+                        <li><a href="#" class="sample-item" data-sample="{{ sample }}">{{ sample }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const projects = document.querySelectorAll('.project-item');
+
+    // Função para aplicar filtro por sample
+    function filterBySample(sampleName) {
+      projects.forEach(project => {
+        const projectSample = project.getAttribute('data-sample').split(',');
+        if (projectSample.includes(sampleName)) {
+          project.style.display = 'block';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    }
+
+    // Lê o sample da URL se houver
+    const urlParams = new URLSearchParams(window.location.search);
+    const sampleFromUrl = urlParams.get('sample');
+    if (sampleFromUrl) {
+      filterBySample(sampleFromUrl);
+    }
+
+    // Ao clicar num sample na lista
+    const sampleItems = document.querySelectorAll('.sample-item');
+    sampleItems.forEach(item => {
+      item.addEventListener('click', function (event) {
+        event.preventDefault();
+        const selectedSample = item.getAttribute('data-sample');
+        filterBySample(selectedSample);
+
+        // Atualiza a URL sem recarregar a página
+        const newUrl = new URL(window.location.href);
+        newUrl.searchParams.set('sample', selectedSample);
+        window.history.replaceState({}, '', newUrl);
+      });
+    });
+
+    // Botão para limpar filtro
+    const clearFilterButton = document.querySelector('#clearFilterButton');
+    clearFilterButton.addEventListener('click', function () {
+      projects.forEach(project => {
+        project.style.display = 'block';
+      });
+
+      // Remove o filtro da URL
+      const newUrl = new URL(window.location.href);
+      newUrl.searchParams.delete('sample');
+      window.history.replaceState({}, '', newUrl);
+    });
+  });
+</script>

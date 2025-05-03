@@ -1,0 +1,99 @@
+---
+layout: default
+title: "Projetos por Instrumento"
+permalink: /instruments/
+---
+<meta charset="utf-8">
+<main class="main-content">  
+  <div class="publication">
+    {% include sidebar.html %}
+  <div class="container">
+  <br>
+  <div class="columns is-mobile is-vcentered" style="margin-bottom: 2rem;">
+    <!-- Título -->
+    <div class="column is-auto">
+      <h2 class="title is-4"><code>Instrumentos disponíveis:</code></h2>
+    </div>
+    <!-- Botão Limpar Filtro -->
+    <div class="column is-auto">
+      <button id="clearFilterButton" class="button is-small is-light">
+        Limpar filtro
+      </button>
+    </div>
+  </div>
+
+    {% assign instruments_exibidos = "" %}
+
+    {% for item in site.data.all %}
+      {% for track in item.tracks %}
+        {% if track.instruments %}
+          {% for instrument in track.instruments %}
+            {% unless instruments_exibidos contains instrument.instrument_name %}
+              {% capture instruments_exibidos %}{{ instruments_exibidos }},{{ instrument.instrument_name }}{% endcapture %}
+
+              <!-- Gerar link para o instrumento -->
+              {% assign instrument_slug = instrument.instrument_name %}
+              <a href="{{ '/instruments/?instrument=' | append: instrument_slug | relative_url }}" class="button is-link instrument-button" style="margin-bottom: 1rem;">
+                {{ instrument.instrument_name }}
+              </a>
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+  </div>
+</main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  const instrumentButtons = document.querySelectorAll('.instrument-button');
+  const urlParams = new URLSearchParams(window.location.search);
+  let instrumentFilter = urlParams.get('instrument'); // Pega o parâmetro 'instrument' da URL, se houver
+
+  // Função para aplicar o filtro de instrumento
+  function filterInstruments() {
+    instrumentButtons.forEach(button => {
+      const instrumentSlug = button.getAttribute('href').split('=')[1]; // Obtém o slug do instrumento do link
+
+      // Se o botão de instrumento não corresponder ao filtro da URL, esconde-o
+      if (instrumentFilter && instrumentSlug !== instrumentFilter) {
+        button.style.display = 'none';
+      } else {
+        button.style.display = 'inline-block'; // Mostra o botão do instrumento se corresponder ao filtro
+      }
+
+      // Se o botão do instrumento corresponder ao filtro, adiciona a classe de destaque
+      if (instrumentSlug === instrumentFilter) {
+        button.classList.add('is-info');
+      } else {
+        button.classList.remove('is-info');
+      }
+    });
+  }
+
+  filterInstruments(); // Aplica o filtro de instrumentos assim que a página é carregada
+
+  // Botão para limpar filtro
+  const clearFilterButton = document.querySelector('#clearFilterButton');
+  if (clearFilterButton) {
+    clearFilterButton.addEventListener('click', function () {
+      // Limpa o filtro e mostra todos os botões
+      instrumentButtons.forEach(button => {
+        button.style.display = 'inline-block'; // Resetando a exibição de todos os botões
+        button.classList.remove('is-info'); // Removendo a classe de destaque
+      });
+
+      // Remove o parâmetro 'instrument' da URL
+      const newUrl = new URL(window.location.href);
+      newUrl.searchParams.delete('instrument');
+      window.history.replaceState({}, '', newUrl);
+
+      // Reaplica o filtro com todos os instrumentos visíveis
+      instrumentFilter = null; // Reseta o filtro para que todos os instrumentos apareçam
+      filterInstruments(); // Reaplica a função de filtro para garantir que todos os botões sejam exibidos
+    });
+  }
+});
+
+</script>

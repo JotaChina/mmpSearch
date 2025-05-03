@@ -1,0 +1,43 @@
+.submenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.submenu a {
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  color: #333;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.submenu a:hover {
+  background-color: #007acc;
+  color: white;
+  border-color: #007acc;
+}
+
+@media screen and (max-width: 600px) {
+  .submenu {
+    justify-content: flex-start;
+  }
+  .submenu a {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+

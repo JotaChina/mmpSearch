@@ -1,55 +1,369 @@
 {
-    "file": "mmp/beatJulioCesardeSousa.mmp",
+    "file": "beatJulioCesardeSousa",
+    "src": "/nethome/jotachina/projetos/mmpSearch/mmp/beatJulioCesardeSousa.mmp",
     "bpm": "90",
+    "tags": {
+        "TAG": [
+            "plugin",
+            "sample",
+            "bassline"
+        ],
+        "plugin": [
+            "tripleoscillator",
+            "audiofileprocessor"
+        ],
+        "sample": [
+            "Sample track"
+        ],
+        "bassline": [
+            "Beat/Bassline 0",
+            "Batida/Linha de Baixo 1",
+            "Batida/Linha de Baixo 2"
+        ],
+        "automation": []
+    },
     "tracks": [
         {
+            "instrumenttrack": {
+                "pitch": "0",
+                "pan": "0",
+                "pitchrange": "1",
+                "basenote": "57",
+                "vol": "N/A",
+                "fxch": "2",
+                "usemasterpitch": "1"
+            },
+            "instrument_name": "tripleoscillator",
+            "tags": "tripleoscillator",
+            "tripleoscillator": {
+                "pan1": "0",
+                "finer1": "0",
+                "modalgo1": "2",
+                "wavetype0": "0",
+                "wavetype2": "0",
+                "userwavefile1": "",
+                "phoffset0": "0",
+                "pan2": "0",
+                "finel0": "0",
+                "phoffset2": "0",
+                "pan0": "0",
+                "coarse2": "-24",
+                "phoffset1": "0",
+                "coarse1": "-12",
+                "coarse0": "0",
+                "stphdetun0": "0",
+                "stphdetun1": "0",
+                "finer0": "0",
+                "wavetype1": "0",
+                "modalgo3": "2",
+                "vol1": "33",
+                "finer2": "0",
+                "vol0": "33",
+                "userwavefile2": "",
+                "userwavefile0": "",
+                "stphdetun2": "0",
+                "modalgo2": "2",
+                "finel2": "0",
+                "vol2": "33",
+                "finel1": "0"
+            },
+            "eldata": {
+                "fwet": "0",
+                "ftype": "0",
+                "fcut": "14000",
+                "fres": "0.5"
+            },
+            "elvol": {
+                "lpdel": "0",
+                "lshp": "0",
+                "x100": "0",
+                "sustain": "0.5",
+                "lspd_syncmode": "0",
+                "dec": "0.5",
+                "ctlenvamt": "0",
+                "pdel": "0",
+                "amt": "0",
+                "rel": "0.1",
+                "userwavefile": "",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lspd": "0.1",
+                "lamt": "0",
+                "att": "0",
+                "hold": "0.5",
+                "lspd_denominator": "4"
+            },
+            "elcut": {
+                "lpdel": "0",
+                "lshp": "0",
+                "x100": "0",
+                "sustain": "0.5",
+                "lspd_syncmode": "0",
+                "dec": "0.5",
+                "ctlenvamt": "0",
+                "pdel": "0",
+                "amt": "0",
+                "rel": "0.1",
+                "userwavefile": "",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lspd": "0.1",
+                "lamt": "0",
+                "att": "0",
+                "hold": "0.5",
+                "lspd_denominator": "4"
+            },
+            "elres": {
+                "lpdel": "0",
+                "lshp": "0",
+                "x100": "0",
+                "sustain": "0.5",
+                "lspd_syncmode": "0",
+                "dec": "0.5",
+                "ctlenvamt": "0",
+                "pdel": "0",
+                "amt": "0",
+                "rel": "0.1",
+                "userwavefile": "",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lspd": "0.1",
+                "lamt": "0",
+                "att": "0",
+                "hold": "0.5",
+                "lspd_denominator": "4"
+            },
+            "chordcreator": {
+                "chordrange": "1",
+                "chord": "0",
+                "chord-enabled": "0"
+            },
+            "arpeggiator": {
+                "arptime_syncmode": "0",
+                "arp-enabled": "0",
+                "arptime_numerator": "4",
+                "arpdir": "0",
+                "arpmiss": "0",
+                "arptime_denominator": "4",
+                "arp": "0",
+                "arpgate": "100",
+                "arpmode": "0",
+                "arptime": "100",
+                "arprange": "1",
+                "arpcycle": "0",
+                "arpskip": "0"
+            },
+            "midiport": {
+                "basevelocity": "63",
+                "writable": "0",
+                "inputchannel": "0",
+                "outputprogram": "1",
+                "outputcontroller": "0",
+                "fixedoutputnote": "-1",
+                "outputchannel": "1",
+                "fixedoutputvelocity": "-1",
+                "inputcontroller": "0",
+                "readable": "0",
+                "fixedinputvelocity": "-1"
+            },
+            "fxchain": {
+                "numofeffects": "0",
+                "enabled": "0"
+            },
             "track_name": "TripleOscillator",
-            "type": "plugin",
-            "instruments": []
+            "type": "plugin"
         },
         {
             "track_name": "Sample track",
+            "sample_name": null,
             "type": "sample",
-            "instruments": []
+            "sample_info": {
+                "pan": "0",
+                "vol": "100"
+            }
         },
         {
-            "track_name": "Beat/Bassline 0",
+            "bassline_name": "Beat/Bassline 0",
             "type": "bassline",
+            "tags": "audiofileprocessor",
             "instruments": [
                 {
-                    "instrument_name": "Kicker"
+                    "instrument_name": "Kicker",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
                 },
                 {
-                    "instrument_name": "snare_hiphop02.ogg"
+                    "instrument_name": "snare_hiphop02.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "4",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/snare_hiphop02.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "kick_hiphop01.ogg"
+                    "instrument_name": "kick_hiphop01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/kick_hiphop01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_opened02.ogg"
+                    "instrument_name": "hihat_opened02.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_opened02.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed01.ogg"
+                    "instrument_name": "hihat_closed01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "3",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "bassslap02.ogg"
+                    "instrument_name": "bassslap02.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/bassslap02.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "clap03.ogg"
+                    "instrument_name": "clap03.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/clap03.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "clav01.ogg"
+                    "instrument_name": "clav01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/clav01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 }
             ]
         },
         {
-            "track_name": "Batida/Linha de Baixo 1",
+            "bassline_name": "Batida/Linha de Baixo 1",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Batida/Linha de Baixo 2",
+            "bassline_name": "Batida/Linha de Baixo 2",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         }
     ]

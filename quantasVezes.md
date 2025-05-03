@@ -5,6 +5,9 @@ permalink: /quantasVezesAparecemInstrumentos/
 ---
 
 <main class="main-content">
+  <div class="publication">
+    {% include sidebar.html %}
+  </div>
   <div class="container">
     <h2>Quantidade de vezes que cada instrumento é utilizado:</h2>
     <ul id="instrument-list">

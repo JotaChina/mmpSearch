@@ -1,38 +1,349 @@
 bpm: '145'
-file: mmp/leandro_souza_atvd1.mmp
+file: leandro_souza_atvd1
+src: /nethome/jotachina/projetos/mmpSearch/mmp/leandro_souza_atvd1.mmp
+tags:
+  TAG:
+  - sample
+  - bassline
+  - automation
+  automation:
+  - "Pista de Automa\xE7\xE3o"
+  - "Pista de Automa\xE7\xE3o"
+  bassline:
+  - clap
+  - kick
+  - snare
+  - hithat
+  - open hat
+  - '808'
+  plugin:
+  - audiofileprocessor
+  sample:
+  - looperman-l-2535254-0150443-gunna-x-young-thug-x-roddy-ricch-type-loop-balenciaga.wav
+  - looperman-l-0791808-0286113-gunna-x-young-thug-type-be-mine-part-2.wav
+  - Vo_invoker_invo_spawn_02.mp3.wav
 tracks:
-- instruments: []
+- sample_info:
+    len: '3071'
+    muted: '0'
+    pan: '0'
+    pos: '0'
+    sample_rate: '44100'
+    src: D:/Downloads/looperman-l-2535254-0150443-gunna-x-young-thug-x-roddy-ricch-type-loop-balenciaga.wav
+    vol: ''
+  sample_name: looperman-l-2535254-0150443-gunna-x-young-thug-x-roddy-ricch-type-loop-balenciaga.wav
   track_name: "\xC1udio Amostras"
   type: sample
-- instruments: []
+- sample_info:
+    len: '1536'
+    muted: '0'
+    pan: '0'
+    pos: '0'
+    sample_rate: '44100'
+    src: D:/Downloads/looperman-l-0791808-0286113-gunna-x-young-thug-type-be-mine-part-2.wav
+    vol: ''
+  sample_name: looperman-l-0791808-0286113-gunna-x-young-thug-type-be-mine-part-2.wav
   track_name: "\xC1udio Amostras"
   type: sample
-- instruments: []
+- sample_info:
+    len: '254'
+    muted: '0'
+    pan: '0'
+    pos: '9024'
+    sample_rate: '44100'
+    src: D:/Downloads/Vo_invoker_invo_spawn_02.mp3.wav
+    vol: '68.8'
+  sample_name: Vo_invoker_invo_spawn_02.mp3.wav
   track_name: "\xC1udio Amostras"
   type: sample
-- instruments:
-  - instrument_name: Kicker
-  - instrument_name: forshaw - clap 1 .wav
-  - instrument_name: forshaw - kick 1.wav
-  - instrument_name: forshaw - snare 6.wav
-  - instrument_name: forshaw - hh 6.wav
-  - instrument_name: forshaw - OHITHAT (6).wav
-  - instrument_name: forshaw - 808 2.wav
-  - instrument_name: forshaw - 808 1.wav
-  track_name: clap
+- bassline_name: clap
+  instruments:
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: Kicker
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/Clap/forshaw
+        - clap 1 .wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '1'
+    instrument_name: forshaw - clap 1 .wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/Kicks/forshaw
+        - kick 1.wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '2'
+    instrument_name: forshaw - kick 1.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/Snare/forshaw
+        - snare 6.wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '3'
+    instrument_name: forshaw - snare 6.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/Hihat/forshaw
+        - hh 6.wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '4'
+    instrument_name: forshaw - hh 6.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/Open Hat/forshaw
+        - OHITHAT (6).wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '5'
+    instrument_name: forshaw - OHITHAT (6).wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/808/forshaw
+        - 808 2.wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '6'
+    instrument_name: forshaw - 808 2.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: 'D:/Documents/lmms/templates/forshaw - mouse (drum kit #1)/808/forshaw
+        - 808 1.wav'
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: forshaw - 808 1.wav
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  tags: audiofileprocessor
   type: bassline
-- instruments: []
-  track_name: kick
+- bassline_name: kick
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: snare
+- bassline_name: snare
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: hithat
+- bassline_name: hithat
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: open hat
+- bassline_name: open hat
+  instruments: []
+  tags: ''
   type: bassline
-- instruments: []
-  track_name: '808'
+- bassline_name: '808'
+  instruments: []
+  tags: ''
   type: bassline
+- automations:
+  - automation_name: "Pista de Automa\xE7\xE3o"
+    automation_patterns:
+    - len: '13248'
+      mute: '0'
+      name: "\xC1udio Amostras>Volume"
+      pos: '0'
+      prog: '1'
+      tens: '1'
+      times:
+      - pos: '0'
+        value: '26.2'
+      - pos: '1152'
+        value: '23.8'
+      - pos: '1536'
+        value: '100'
+      - pos: '5760'
+        value: '100'
+      - pos: '7704'
+        value: '19.2'
+      - pos: '8832'
+        value: '25.4'
+      - pos: '9216'
+        value: '100'
+      - pos: '12672'
+        value: '98.5'
+      - pos: '13200'
+        value: '0'
+    automationtrack: Present
+    type: automation
+  - automation_name: "Pista de Automa\xE7\xE3o"
+    automation_patterns:
+    - len: '13248'
+      mute: '0'
+      name: "\xC1udio Amostras>Volume"
+      pos: '0'
+      prog: '1'
+      tens: '1'
+      times:
+      - pos: '0'
+        value: '0'
+      - pos: '384'
+        value: '50'
+      - pos: '1248'
+        value: '50'
+      - pos: '1536'
+        value: '0'
+      - pos: '6144'
+        value: '0.8'
+      - pos: '7680'
+        value: '0'
+      - pos: '8208'
+        value: '50.8'
+      - pos: '8832'
+        value: '50.8'
+      - pos: '9216'
+        value: '0'
+    automationtrack: Present
+    type: automation
+- automations:
+  - automation_name: "Pista de Automa\xE7\xE3o"
+    automation_patterns:
+    - len: '13248'
+      mute: '0'
+      name: "\xC1udio Amostras>Volume"
+      pos: '0'
+      prog: '1'
+      tens: '1'
+      times:
+      - pos: '0'
+        value: '26.2'
+      - pos: '1152'
+        value: '23.8'
+      - pos: '1536'
+        value: '100'
+      - pos: '5760'
+        value: '100'
+      - pos: '7704'
+        value: '19.2'
+      - pos: '8832'
+        value: '25.4'
+      - pos: '9216'
+        value: '100'
+      - pos: '12672'
+        value: '98.5'
+      - pos: '13200'
+        value: '0'
+    automationtrack: Present
+    type: automation
+  - automation_name: "Pista de Automa\xE7\xE3o"
+    automation_patterns:
+    - len: '13248'
+      mute: '0'
+      name: "\xC1udio Amostras>Volume"
+      pos: '0'
+      prog: '1'
+      tens: '1'
+      times:
+      - pos: '0'
+        value: '0'
+      - pos: '384'
+        value: '50'
+      - pos: '1248'
+        value: '50'
+      - pos: '1536'
+        value: '0'
+      - pos: '6144'
+        value: '0.8'
+      - pos: '7680'
+        value: '0'
+      - pos: '8208'
+        value: '50.8'
+      - pos: '8832'
+        value: '50.8'
+      - pos: '9216'
+        value: '0'
+    automationtrack: Present
+    type: automation

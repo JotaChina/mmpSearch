@@ -1,22 +1,404 @@
 bpm: '140'
-file: "mmp/Wesley_Silva_Guimar\xE3es.mmp"
+file: "Wesley_Silva_Guimar\xE3es"
+src: "/nethome/jotachina/projetos/mmpSearch/mmp/Wesley_Silva_Guimar\xE3es.mmp"
+tags:
+  TAG:
+  - plugin
+  - sample
+  - bassline
+  automation: []
+  bassline:
+  - Beat/Bassline 0
+  plugin:
+  - tripleoscillator
+  - audiofileprocessor
+  sample:
+  - Sample track
 tracks:
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '100'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrument_name: tripleoscillator
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  tags: tripleoscillator
   track_name: TripleOscillator
+  tripleoscillator:
+    coarse0: '0'
+    coarse1: '-12'
+    coarse2: '-24'
+    finel0: '0'
+    finel1: '0'
+    finel2: '0'
+    finer0: '0'
+    finer1: '0'
+    finer2: '0'
+    modalgo1: '2'
+    modalgo2: '2'
+    modalgo3: '2'
+    pan0: '0'
+    pan1: '0'
+    pan2: '0'
+    phoffset0: '0'
+    phoffset1: '0'
+    phoffset2: '0'
+    stphdetun0: '0'
+    stphdetun1: '0'
+    stphdetun2: '0'
+    userwavefile0: ''
+    userwavefile1: ''
+    userwavefile2: ''
+    vol0: '33'
+    vol1: '33'
+    vol2: '33'
+    wavetype0: '0'
+    wavetype1: '0'
+    wavetype2: '0'
   type: plugin
-- instruments: []
+- sample_info:
+    pan: '0'
+    vol: '100'
+  sample_name: null
   track_name: Sample track
   type: sample
-- instruments: []
+- arpeggiator:
+    arp: '0'
+    arp-enabled: '0'
+    arpcycle: '0'
+    arpdir: '0'
+    arpgate: '100'
+    arpmiss: '0'
+    arpmode: '0'
+    arprange: '1'
+    arpskip: '0'
+    arptime: '200'
+    arptime_denominator: '4'
+    arptime_numerator: '4'
+    arptime_syncmode: '0'
+  audiofileprocessor:
+    amp: '100'
+    eframe: '1'
+    interp: '1'
+    lframe: '0'
+    looped: '0'
+    reversed: '0'
+    sframe: '0'
+    src: drums/bassdrum01.ogg
+    stutter: '0'
+  chordcreator:
+    chord: '0'
+    chord-enabled: '0'
+    chordrange: '1'
+  elcut:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  eldata:
+    fcut: '14000'
+    fres: '0.5'
+    ftype: '0'
+    fwet: '0'
+  elres:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  elvol:
+    amt: '0'
+    att: '0'
+    ctlenvamt: '0'
+    dec: '0.5'
+    hold: '0.5'
+    lamt: '0'
+    latt: '0'
+    lpdel: '0'
+    lshp: '0'
+    lspd: '0.1'
+    lspd_denominator: '4'
+    lspd_numerator: '4'
+    lspd_syncmode: '0'
+    pdel: '0'
+    rel: '0.1'
+    sustain: '0.5'
+    userwavefile: ''
+    x100: '0'
+  fxchain:
+    enabled: '0'
+    numofeffects: '0'
+  instrumenttrack:
+    basenote: '57'
+    fxch: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  midiport:
+    basevelocity: '63'
+    fixedinputvelocity: '-1'
+    fixedoutputnote: '-1'
+    fixedoutputvelocity: '-1'
+    inputchannel: '0'
+    inputcontroller: '0'
+    outputchannel: '1'
+    outputcontroller: '0'
+    outputprogram: '1'
+    readable: '0'
+    writable: '0'
+  plugin_name: audiofileprocessor
   track_name: bassdrum01.ogg
   type: plugin
-- instruments:
-  - instrument_name: Kicker
-  - instrument_name: bassdrum01.ogg
-  - instrument_name: bassdrum02.ogg
-  - instrument_name: bassdrum04.ogg
-  - instrument_name: clap01.ogg
-  - instrument_name: kick02.ogg
-  - instrument_name: hihat_closed01.ogg
-  track_name: Beat/Bassline 0
+- bassline_name: Beat/Bassline 0
+  instruments:
+  - basenote: '57'
+    fxch: '0'
+    instrument_name: Kicker
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/bassdrum01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassdrum01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/bassdrum02.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassdrum02.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/bassdrum04.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: bassdrum04.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/clap01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: clap01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/kick02.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: kick02.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '100'
+  - audiofileprocessor:
+      amp: '100'
+      eframe: '1'
+      interp: '1'
+      lframe: '0'
+      looped: '0'
+      reversed: '0'
+      sframe: '0'
+      src: drums/hihat_closed01.ogg
+      stutter: '0'
+    basenote: '57'
+    fxch: '0'
+    instrument_name: hihat_closed01.ogg
+    instrument_type: '0'
+    pan: '0'
+    pitch: '0'
+    pitchrange: '1'
+    usemasterpitch: '1'
+    vol: '56'
+  tags: audiofileprocessor
   type: bassline

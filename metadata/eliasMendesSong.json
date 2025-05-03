@@ -1,219 +1,928 @@
 {
-    "file": "mmp/eliasMendesSong.mmp",
+    "file": "eliasMendesSong",
+    "src": "/nethome/jotachina/projetos/mmpSearch/mmp/eliasMendesSong.mmp",
     "bpm": "140",
+    "tags": {
+        "TAG": [
+            "plugin",
+            "sample",
+            "bassline",
+            "automation"
+        ],
+        "plugin": [
+            "tripleoscillator",
+            "audiofileprocessor"
+        ],
+        "sample": [
+            "Sample track"
+        ],
+        "bassline": [
+            "Beat/Bassline 0",
+            "Clone de Beat/Bassline 0",
+            "Clone de Clone de Beat/Bassline 0",
+            "Clone de Clone de Clone de Beat/Bassline 0",
+            "Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "Batida/Linha de Baixo 8",
+            "Clone de Batida/Linha de Baixo 8",
+            "Clone de Batida/Linha de Baixo 8",
+            "Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8"
+        ],
+        "automation": [
+            "Automation track"
+        ]
+    },
     "tracks": [
         {
+            "instrumenttrack": {
+                "pitch": "0",
+                "pan": "0",
+                "pitchrange": "1",
+                "basenote": "57",
+                "vol": "100",
+                "fxch": "0",
+                "usemasterpitch": "1"
+            },
+            "instrument_name": "tripleoscillator",
+            "tags": "tripleoscillator",
+            "tripleoscillator": {
+                "phoffset2": "0",
+                "stphdetun2": "0",
+                "wavetype2": "0",
+                "vol0": "33",
+                "coarse1": "-12",
+                "finer1": "0",
+                "stphdetun0": "0",
+                "vol2": "33",
+                "pan0": "0",
+                "phoffset1": "0",
+                "wavetype1": "0",
+                "finel2": "0",
+                "userwavefile2": "",
+                "coarse0": "0",
+                "vol1": "33",
+                "phoffset0": "0",
+                "userwavefile0": "",
+                "wavetype0": "0",
+                "finer0": "0",
+                "pan2": "0",
+                "finel0": "0",
+                "modalgo1": "2",
+                "modalgo2": "2",
+                "stphdetun1": "0",
+                "userwavefile1": "",
+                "finer2": "0",
+                "coarse2": "-24",
+                "modalgo3": "2",
+                "pan1": "0",
+                "finel1": "0"
+            },
+            "eldata": {
+                "fwet": "0",
+                "ftype": "0",
+                "fcut": "14000",
+                "fres": "0.5"
+            },
+            "elvol": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "elcut": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "elres": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "chordcreator": {
+                "chordrange": "1",
+                "chord": "0",
+                "chord-enabled": "0"
+            },
+            "arpeggiator": {
+                "arptime_syncmode": "0",
+                "arp-enabled": "0",
+                "arp": "0",
+                "arpmiss": "0",
+                "arptime": "100",
+                "arpskip": "0",
+                "arpdir": "0",
+                "arpmode": "0",
+                "arptime_numerator": "4",
+                "arprange": "1",
+                "arpcycle": "0",
+                "arptime_denominator": "4",
+                "arpgate": "100"
+            },
+            "midiport": {
+                "fixedinputvelocity": "-1",
+                "inputcontroller": "0",
+                "inputchannel": "0",
+                "outputchannel": "1",
+                "writable": "0",
+                "outputprogram": "1",
+                "fixedoutputnote": "-1",
+                "fixedoutputvelocity": "-1",
+                "basevelocity": "63",
+                "readable": "0",
+                "outputcontroller": "0"
+            },
+            "fxchain": {
+                "numofeffects": "0",
+                "enabled": "0"
+            },
             "track_name": "TripleOscillator",
-            "type": "plugin",
-            "instruments": []
+            "type": "plugin"
         },
         {
             "track_name": "Sample track",
+            "sample_name": null,
             "type": "sample",
-            "instruments": []
+            "sample_info": {
+                "pan": "0",
+                "vol": "100"
+            }
         },
         {
-            "track_name": "Beat/Bassline 0",
+            "bassline_name": "Beat/Bassline 0",
             "type": "bassline",
+            "tags": "audiofileprocessor",
             "instruments": [
                 {
-                    "instrument_name": "Kicker"
+                    "instrument_name": "Kicker",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
                 },
                 {
-                    "instrument_name": "heaven_strings01.ogg"
+                    "instrument_name": "heaven_strings01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "stringsnpads/heaven_strings01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "breath01.ogg"
+                    "instrument_name": "breath01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "misc/breath01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "break02.ogg"
+                    "instrument_name": "break02.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "beats/break02.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "clap01.ogg"
+                    "instrument_name": "clap01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/clap01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "raving_crowd01.ogg"
+                    "instrument_name": "raving_crowd01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "misc/raving_crowd01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "start01.ogg"
+                    "instrument_name": "start01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "effects/start01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "bass01.ogg"
+                    "instrument_name": "bass01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "basses/bass01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "rave_bass01.ogg"
+                    "instrument_name": "rave_bass01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "-0.80000007",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "basses/rave_bass01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "synth_acid01.ogg"
+                    "instrument_name": "synth_acid01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "basses/synth_acid01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "horror_bass01.ogg"
+                    "instrument_name": "horror_bass01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "basses/horror_bass01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed01.ogg"
+                    "instrument_name": "hihat_closed01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "Hi-q.ds"
+                    "instrument_name": "Hi-q.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/electro/Hi-q.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "Syntom_1.ds"
+                    "instrument_name": "Syntom_1.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/electro/Syntom_1.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "Snare.ds"
+                    "instrument_name": "Snare.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/cr78/Snare.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "a_round_thing.ds"
+                    "instrument_name": "a_round_thing.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/misc_electro/a_round_thing.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "long_q_1.ds"
+                    "instrument_name": "long_q_1.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/misc_electro/long_q_1.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "wee_dog.ds"
+                    "instrument_name": "wee_dog.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/misc_electro/wee_dog.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "dirty_transform.ds"
+                    "instrument_name": "dirty_transform.ds",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drumsynth/misc_fx/dirty_transform.ds",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 }
             ]
         },
         {
-            "track_name": "Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Beat/Bassline 0",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Batida/Linha de Baixo 8",
+            "automations": [
+                {
+                    "automation_name": "Automation track",
+                    "type": "automation",
+                    "automation_patterns": [],
+                    "automationtrack": "Present"
+                }
+            ]
+        },
+        {
+            "bassline_name": "Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
+            "bassline_name": "Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Clone de Batida/Linha de Baixo 8",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
+            "instrumenttrack": {
+                "pitch": "0",
+                "pan": "0",
+                "pitchrange": "1",
+                "basenote": "57",
+                "vol": "100",
+                "fxch": "0",
+                "usemasterpitch": "1"
+            },
+            "plugin_name": "audiofileprocessor",
+            "audiofileprocessor": {
+                "stutter": "0",
+                "looped": "0",
+                "src": "drumsynth/misc_fx/dirty_transform.ds",
+                "interp": "1",
+                "sframe": "0",
+                "eframe": "1",
+                "amp": "100",
+                "reversed": "0",
+                "lframe": "0"
+            },
+            "eldata": {
+                "fwet": "0",
+                "ftype": "0",
+                "fcut": "14000",
+                "fres": "0.5"
+            },
+            "elvol": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "elcut": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "elres": {
+                "hold": "0.5",
+                "x100": "0",
+                "lamt": "0",
+                "lspd_denominator": "4",
+                "sustain": "0.5",
+                "att": "0",
+                "dec": "0.5",
+                "lpdel": "0",
+                "rel": "0.1",
+                "lspd_syncmode": "0",
+                "latt": "0",
+                "lspd_numerator": "4",
+                "userwavefile": "",
+                "pdel": "0",
+                "ctlenvamt": "0",
+                "lshp": "0",
+                "lspd": "0.1",
+                "amt": "0"
+            },
+            "chordcreator": {
+                "chordrange": "1",
+                "chord": "0",
+                "chord-enabled": "0"
+            },
+            "arpeggiator": {
+                "arptime_syncmode": "0",
+                "arp-enabled": "0",
+                "arp": "0",
+                "arpmiss": "0",
+                "arptime": "200",
+                "arpskip": "0",
+                "arpdir": "0",
+                "arpmode": "0",
+                "arptime_numerator": "4",
+                "arprange": "1",
+                "arpcycle": "0",
+                "arptime_denominator": "4",
+                "arpgate": "100"
+            },
+            "midiport": {
+                "fixedinputvelocity": "-1",
+                "inputcontroller": "0",
+                "inputchannel": "0",
+                "outputchannel": "1",
+                "writable": "0",
+                "outputprogram": "1",
+                "fixedoutputnote": "-1",
+                "fixedoutputvelocity": "-1",
+                "basevelocity": "63",
+                "readable": "0",
+                "outputcontroller": "0"
+            },
+            "fxchain": {
+                "numofeffects": "0",
+                "enabled": "0"
+            },
             "track_name": "dirty_transform.ds",
-            "type": "plugin",
-            "instruments": []
+            "type": "plugin"
         }
     ]
 }

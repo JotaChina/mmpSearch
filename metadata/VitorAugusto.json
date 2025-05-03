@@ -1,80 +1,395 @@
 {
-    "file": "mmp/VitorAugusto.mmp",
+    "file": "VitorAugusto",
+    "src": "/nethome/jotachina/projetos/mmpSearch/mmp/VitorAugusto.mmp",
     "bpm": "140",
+    "tags": {
+        "TAG": [
+            "plugin",
+            "sample",
+            "automation",
+            "bassline"
+        ],
+        "plugin": [
+            "tripleoscillator",
+            "audiofileprocessor"
+        ],
+        "sample": [
+            "Sample track"
+        ],
+        "bassline": [
+            "Piano",
+            "Kick",
+            "Kick_distorted",
+            "Clap",
+            "Snare",
+            "Hihat_closed",
+            "Hihat_opened",
+            "Violino"
+        ],
+        "automation": [
+            "Automation track"
+        ]
+    },
     "tracks": [
         {
+            "instrumenttrack": {
+                "pitch": "0",
+                "pan": "0",
+                "pitchrange": "1",
+                "basenote": "57",
+                "vol": "100",
+                "fxch": "0",
+                "usemasterpitch": "1"
+            },
+            "instrument_name": "tripleoscillator",
+            "tags": "tripleoscillator",
+            "tripleoscillator": {
+                "vol1": "33",
+                "pan0": "0",
+                "pan2": "0",
+                "userwavefile1": "",
+                "pan1": "0",
+                "userwavefile0": "",
+                "vol0": "33",
+                "vol2": "33",
+                "finel2": "0",
+                "wavetype1": "0",
+                "phoffset2": "0",
+                "finer2": "0",
+                "wavetype0": "0",
+                "stphdetun2": "0",
+                "modalgo3": "2",
+                "phoffset0": "0",
+                "stphdetun0": "0",
+                "finer0": "0",
+                "wavetype2": "0",
+                "userwavefile2": "",
+                "phoffset1": "0",
+                "coarse0": "0",
+                "modalgo1": "2",
+                "coarse1": "-12",
+                "stphdetun1": "0",
+                "finel0": "0",
+                "modalgo2": "2",
+                "coarse2": "-24",
+                "finer1": "0",
+                "finel1": "0"
+            },
+            "eldata": {
+                "fwet": "0",
+                "ftype": "0",
+                "fcut": "14000",
+                "fres": "0.5"
+            },
+            "elvol": {
+                "amt": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "lspd_denominator": "4",
+                "lshp": "0",
+                "sustain": "0.5",
+                "lamt": "0",
+                "x100": "0",
+                "dec": "0.5",
+                "userwavefile": "",
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "ctlenvamt": "0",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lpdel": "0",
+                "rel": "0.1",
+                "att": "0"
+            },
+            "elcut": {
+                "amt": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "lspd_denominator": "4",
+                "lshp": "0",
+                "sustain": "0.5",
+                "lamt": "0",
+                "x100": "0",
+                "dec": "0.5",
+                "userwavefile": "",
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "ctlenvamt": "0",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lpdel": "0",
+                "rel": "0.1",
+                "att": "0"
+            },
+            "elres": {
+                "amt": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "lspd_denominator": "4",
+                "lshp": "0",
+                "sustain": "0.5",
+                "lamt": "0",
+                "x100": "0",
+                "dec": "0.5",
+                "userwavefile": "",
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "ctlenvamt": "0",
+                "lspd_numerator": "4",
+                "latt": "0",
+                "lpdel": "0",
+                "rel": "0.1",
+                "att": "0"
+            },
+            "chordcreator": {
+                "chord-enabled": "0",
+                "chordrange": "1",
+                "chord": "0"
+            },
+            "arpeggiator": {
+                "arptime_denominator": "4",
+                "arpdir": "0",
+                "arpskip": "0",
+                "arpgate": "100",
+                "arprange": "1",
+                "arpcycle": "0",
+                "arptime": "100",
+                "arptime_numerator": "4",
+                "arp-enabled": "0",
+                "arpmiss": "0",
+                "arptime_syncmode": "0",
+                "arp": "0",
+                "arpmode": "0"
+            },
+            "midiport": {
+                "outputchannel": "1",
+                "inputcontroller": "0",
+                "fixedoutputvelocity": "-1",
+                "fixedoutputnote": "-1",
+                "basevelocity": "63",
+                "fixedinputvelocity": "-1",
+                "outputprogram": "1",
+                "inputchannel": "0",
+                "outputcontroller": "0",
+                "writable": "0",
+                "readable": "0"
+            },
+            "fxchain": {
+                "enabled": "0",
+                "numofeffects": "0"
+            },
             "track_name": "TripleOscillator",
-            "type": "plugin",
-            "instruments": []
+            "type": "plugin"
         },
         {
             "track_name": "Sample track",
+            "sample_name": null,
             "type": "sample",
-            "instruments": []
+            "sample_info": {
+                "pan": "0",
+                "vol": "100"
+            }
         },
         {
-            "track_name": "Piano",
-            "type": "bassline",
-            "instruments": [
+            "automations": [
                 {
-                    "instrument_name": "Kicker"
-                },
-                {
-                    "instrument_name": "kick_distorted01.ogg"
-                },
-                {
-                    "instrument_name": "clap01.ogg"
-                },
-                {
-                    "instrument_name": "snare05.ogg"
-                },
-                {
-                    "instrument_name": "hihat_closed01.ogg"
-                },
-                {
-                    "instrument_name": "hihat_opened01.ogg"
-                },
-                {
-                    "instrument_name": "Analog Piano 1"
-                },
-                {
-                    "instrument_name": "Synth Violin 2 Fat"
+                    "automation_name": "Automation track",
+                    "type": "automation",
+                    "automation_patterns": [],
+                    "automationtrack": "Present"
                 }
             ]
         },
         {
-            "track_name": "Kick",
+            "bassline_name": "Piano",
             "type": "bassline",
+            "tags": "audiofileprocessor",
+            "instruments": [
+                {
+                    "instrument_name": "Kicker",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
+                },
+                {
+                    "instrument_name": "kick_distorted01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "21.6",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/kick_distorted01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
+                },
+                {
+                    "instrument_name": "clap01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/clap01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
+                },
+                {
+                    "instrument_name": "snare05.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/snare05.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
+                },
+                {
+                    "instrument_name": "hihat_closed01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "18.4",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
+                },
+                {
+                    "instrument_name": "hihat_opened01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "25.6",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_opened01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
+                },
+                {
+                    "instrument_name": "Analog Piano 1",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
+                },
+                {
+                    "instrument_name": "Synth Violin 2 Fat",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1"
+                }
+            ]
+        },
+        {
+            "bassline_name": "Kick",
+            "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Kick_distorted",
+            "bassline_name": "Kick_distorted",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Clap",
+            "bassline_name": "Clap",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Snare",
+            "bassline_name": "Snare",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Hihat_closed",
+            "bassline_name": "Hihat_closed",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Hihat_opened",
+            "bassline_name": "Hihat_opened",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Violino",
+            "bassline_name": "Violino",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         }
     ]

@@ -1,0 +1,135 @@
+---
+layout: default
+title: Projetos com a tag Bassline
+permalink: /bassline/
+---
+<meta charset="utf-8">
+
+<main class="main-content">  
+  <div class="publication">
+    {% include sidebar.html %}
+  </div>
+
+  <div class="container">
+    <div class="columns is-mobile is-vcentered" style="margin-bottom: 2rem;">
+      <!-- Título -->
+      <div class="column is-auto">
+        <h2 class="title is-4"><code>Projetos que possuem a tag bassline:</code></h2>
+      </div>
+      <!-- Botão Limpar Filtro -->
+      <div class="column is-auto">
+        <button id="clearFilterButton" class="button is-small is-light">
+          Limpar filtro
+        </button>
+      </div>
+    </div>
+
+    <!-- Projetos -->
+    <div id="project-list" class="columns is-multiline">
+      {% for projeto in site.data.all %}
+        {% if projeto.tags.TAG contains "bassline" %}
+          <div class="column is-6 project-item" data-bassline="{{ projeto.tags.bassline | join: ',' }}">
+            <div class="box">
+              <!-- Botão do projeto -->
+              {% assign file_url = projeto.file | downcase 
+                                    | replace: ' ', '-' 
+                                    | replace: 'ç', 'c' 
+                                    | replace: 'ã', 'a' 
+                                    | replace: 'á', 'a'
+                                    | replace: 'â', 'a'
+                                    | replace: 'é', 'e'
+                                    | replace: 'ê', 'e'
+                                    | replace: 'í', 'i' 
+                                    | replace: 'ó', 'o' 
+                                    | replace: 'ô', 'o'
+                                    | replace: 'õ', 'o'
+                                    | replace: 'ú', 'u' %}
+
+              <a href="../mmp_pages/{{ file_url }}.html" class="button is-link is-fullwidth">
+                {{ projeto.file }}
+              </a>
+
+              <!-- Lista de Basslines clicáveis -->
+              {% if projeto.tags.bassline and projeto.tags.bassline.size > 0 %}
+                <div style="margin-top: 1rem;">
+                  <p><strong>Bassline:</strong></p>
+                  <ul style="list-style-type: disc; padding-left: 1.25rem;">
+                    {% for bassline in projeto.tags.bassline %}
+                      {% if bassline != "" %}
+                        <li><a href="#" class="bassline-item" data-bassline="{{ bassline }}">{{ bassline }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const projects = document.querySelectorAll('.project-item');
+
+    // Função para aplicar filtro por bassline
+    function filterByBassline(basslineName) {
+      projects.forEach(project => {
+        const projectBasslines = project.getAttribute('data-bassline').split(',');
+        if (projectBasslines.includes(basslineName)) {
+          project.style.display = 'block';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    }
+
+    // Lê o parâmetro bassline da URL (se houver)
+    const urlParams = new URLSearchParams(window.location.search);
+    let basslineFromUrl = urlParams.get('bassline');
+    
+    // Substituir "+" por " " (espaços)
+    if (basslineFromUrl) {
+      basslineFromUrl = basslineFromUrl.replace(/\+/g, ' ');
+      filterByBassline(basslineFromUrl);
+    }
+
+    // Ao clicar numa bassline na lista
+    const basslineItems = document.querySelectorAll('.bassline-item');
+    if (basslineItems.length > 0) {
+      basslineItems.forEach(item => {
+        item.addEventListener('click', function (event) {
+          event.preventDefault();
+          const selectedBassline = item.getAttribute('data-bassline');
+          
+          // Substitui espaços por "+"
+          const basslineForUrl = selectedBassline.replace(/ /g, '+');
+          
+          filterByBassline(selectedBassline);
+
+          // Atualiza a URL sem recarregar a página
+          const newUrl = new URL(window.location.href);
+          newUrl.searchParams.set('bassline', basslineForUrl);
+          window.history.replaceState({}, '', newUrl);
+        });
+      });
+    }
+
+    // Botão para limpar filtro
+    const clearFilterButton = document.querySelector('#clearFilterButton');
+    if (clearFilterButton) {
+      clearFilterButton.addEventListener('click', function () {
+        projects.forEach(project => {
+          project.style.display = 'block';
+        });
+
+        // Remove o parâmetro bassline da URL
+        const newUrl = new URL(window.location.href);
+        newUrl.searchParams.delete('bassline');
+        window.history.replaceState({}, '', newUrl);
+      });
+    }
+  });
+</script>

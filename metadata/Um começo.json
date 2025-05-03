@@ -1,91 +1,443 @@
 {
-    "file": "mmp/Um começo.mmp",
+    "file": "Um começo",
+    "src": "/nethome/jotachina/projetos/mmpSearch/mmp/Um começo.mmp",
     "bpm": "143",
+    "tags": {
+        "TAG": [
+            "plugin",
+            "sample",
+            "bassline",
+            "automation"
+        ],
+        "plugin": [
+            "tripleoscillator",
+            "audiofileprocessor"
+        ],
+        "sample": [
+            "Sample track"
+        ],
+        "bassline": [
+            "Violino (Verso 2)",
+            "Violino (Verso 1 - 1)",
+            "Guitarra (Verso 1)",
+            "Guitarra (Ponte)",
+            "Baixo (Verso 2)",
+            "Baixo (Refrão)",
+            "Bateria (Ponte)",
+            "Bateria (Refrão)",
+            "Bateria (Verso 1)",
+            "Base"
+        ],
+        "automation": [
+            "Pista de Automação"
+        ]
+    },
     "tracks": [
         {
+            "instrumenttrack": {
+                "pitch": "0",
+                "pan": "0",
+                "pitchrange": "1",
+                "basenote": "57",
+                "vol": "100",
+                "fxch": "0",
+                "usemasterpitch": "1"
+            },
+            "instrument_name": "tripleoscillator",
+            "tags": "tripleoscillator",
+            "tripleoscillator": {
+                "finel1": "0",
+                "coarse2": "-24",
+                "phoffset1": "0",
+                "modalgo2": "2",
+                "finel2": "0",
+                "wavetype2": "0",
+                "wavetype0": "0",
+                "userwavefile2": "",
+                "pan2": "0",
+                "vol2": "33",
+                "stphdetun1": "0",
+                "coarse1": "-12",
+                "modalgo3": "2",
+                "modalgo1": "2",
+                "userwavefile1": "",
+                "phoffset0": "0",
+                "vol1": "33",
+                "finel0": "0",
+                "pan0": "0",
+                "userwavefile0": "",
+                "pan1": "0",
+                "finer0": "0",
+                "wavetype1": "0",
+                "finer2": "0",
+                "coarse0": "0",
+                "vol0": "33",
+                "phoffset2": "0",
+                "stphdetun2": "0",
+                "finer1": "0",
+                "stphdetun0": "0"
+            },
+            "eldata": {
+                "fwet": "0",
+                "ftype": "0",
+                "fcut": "14000",
+                "fres": "0.5"
+            },
+            "elvol": {
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "att": "0",
+                "lpdel": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "sustain": "0.5",
+                "lshp": "0",
+                "ctlenvamt": "0",
+                "rel": "0.1",
+                "lspd_denominator": "4",
+                "lamt": "0",
+                "latt": "0",
+                "x100": "0",
+                "userwavefile": "",
+                "amt": "0",
+                "dec": "0.5",
+                "lspd_numerator": "4"
+            },
+            "elcut": {
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "att": "0",
+                "lpdel": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "sustain": "0.5",
+                "lshp": "0",
+                "ctlenvamt": "0",
+                "rel": "0.1",
+                "lspd_denominator": "4",
+                "lamt": "0",
+                "latt": "0",
+                "x100": "0",
+                "userwavefile": "",
+                "amt": "0",
+                "dec": "0.5",
+                "lspd_numerator": "4"
+            },
+            "elres": {
+                "pdel": "0",
+                "lspd_syncmode": "0",
+                "att": "0",
+                "lpdel": "0",
+                "hold": "0.5",
+                "lspd": "0.1",
+                "sustain": "0.5",
+                "lshp": "0",
+                "ctlenvamt": "0",
+                "rel": "0.1",
+                "lspd_denominator": "4",
+                "lamt": "0",
+                "latt": "0",
+                "x100": "0",
+                "userwavefile": "",
+                "amt": "0",
+                "dec": "0.5",
+                "lspd_numerator": "4"
+            },
+            "chordcreator": {
+                "chord": "0",
+                "chordrange": "1",
+                "chord-enabled": "0"
+            },
+            "arpeggiator": {
+                "arptime_syncmode": "0",
+                "arprange": "1",
+                "arpmiss": "0",
+                "arpmode": "0",
+                "arp-enabled": "0",
+                "arpcycle": "0",
+                "arp": "0",
+                "arptime_numerator": "4",
+                "arpdir": "0",
+                "arpskip": "0",
+                "arpgate": "100",
+                "arptime": "100",
+                "arptime_denominator": "4"
+            },
+            "midiport": {
+                "basevelocity": "63",
+                "inputcontroller": "0",
+                "outputprogram": "1",
+                "fixedinputvelocity": "-1",
+                "readable": "0",
+                "fixedoutputvelocity": "-1",
+                "inputchannel": "0",
+                "writable": "0",
+                "outputcontroller": "0",
+                "outputchannel": "1",
+                "fixedoutputnote": "-1"
+            },
+            "fxchain": {
+                "numofeffects": "0",
+                "enabled": "0"
+            },
             "track_name": "TripleOscillator",
-            "type": "plugin",
-            "instruments": []
+            "type": "plugin"
         },
         {
             "track_name": "Sample track",
+            "sample_name": null,
             "type": "sample",
-            "instruments": []
+            "sample_info": {
+                "pan": "0",
+                "vol": "100"
+            }
         },
         {
-            "track_name": "Violino (Verso 2)",
+            "bassline_name": "Violino (Verso 2)",
             "type": "bassline",
+            "tags": "audiofileprocessor",
             "instruments": [
                 {
-                    "instrument_name": "bassdrum04.ogg"
+                    "instrument_name": "bassdrum04.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/bassdrum04.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "hihat_closed04.ogg"
+                    "instrument_name": "hihat_closed04.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "1.49012e-08",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/hihat_closed04.ogg",
+                        "lframe": "0.000814111",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0.000542741",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "snare_hiphop01.ogg"
+                    "instrument_name": "snare_hiphop01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/snare_hiphop01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "snare_muffled02.ogg"
+                    "instrument_name": "snare_muffled02.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/snare_muffled02.ogg",
+                        "lframe": "0.000241274",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0.000160849",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "snare_muffled01.ogg"
+                    "instrument_name": "snare_muffled01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "99.6",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "1",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "drums/snare_muffled01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "bassslap01.ogg"
+                    "instrument_name": "bassslap01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "2",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/bassslap01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "violin_pizzicato01.ogg"
+                    "instrument_name": "violin_pizzicato01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "99.8",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "0",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/violin_pizzicato01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 },
                 {
-                    "instrument_name": "steel_guitar01.ogg"
+                    "instrument_name": "steel_guitar01.ogg",
+                    "instrument_type": "0",
+                    "pitch": "0",
+                    "pan": "0",
+                    "vol": "100",
+                    "pitchrange": "1",
+                    "basenote": "57",
+                    "fxch": "3",
+                    "usemasterpitch": "1",
+                    "audiofileprocessor": {
+                        "amp": "100",
+                        "src": "instruments/steel_guitar01.ogg",
+                        "lframe": "0",
+                        "stutter": "0",
+                        "interp": "1",
+                        "sframe": "0",
+                        "looped": "0",
+                        "eframe": "1",
+                        "reversed": "0"
+                    }
                 }
             ]
         },
         {
-            "track_name": "Violino (Verso 1 - 1)",
+            "bassline_name": "Violino (Verso 1 - 1)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Guitarra (Verso 1)",
+            "bassline_name": "Guitarra (Verso 1)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Guitarra (Ponte)",
+            "bassline_name": "Guitarra (Ponte)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Baixo (Verso 2)",
+            "bassline_name": "Baixo (Verso 2)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Baixo (Refrão)",
+            "bassline_name": "Baixo (Refrão)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Bateria (Ponte)",
+            "bassline_name": "Bateria (Ponte)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Bateria (Refrão)",
+            "bassline_name": "Bateria (Refrão)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Bateria (Verso 1)",
+            "bassline_name": "Bateria (Verso 1)",
             "type": "bassline",
+            "tags": "",
             "instruments": []
         },
         {
-            "track_name": "Base",
+            "bassline_name": "Base",
             "type": "bassline",
+            "tags": "",
             "instruments": []
+        },
+        {
+            "automations": [
+                {
+                    "automation_name": "Pista de Automação",
+                    "type": "automation",
+                    "automation_patterns": [],
+                    "automationtrack": "Present"
+                }
+            ]
         }
     ]
 }
